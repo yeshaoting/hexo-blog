@@ -1,0 +1,606 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>服务器问题集锦 | 芳草地</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="yeshaoting">
+    
+
+    
+    <meta name="description" content="[TOC]
+tomcat访问系统文件及文件夹1. 进入tomcat目录
+cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37
+
+2. 修改web.xml配置
+vim conf/web.xml
+
+3. 修改listings参数找到名为 default 的servlet配置。12345678910111213&amp;lt;servlet&amp;gt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="服务器问题集锦">
+<meta property="og:url" content="http://yeshaoting.github.io/2015/07/17/article/java/服务器问题集锦/index.html">
+<meta property="og:site_name" content="芳草地">
+<meta property="og:description" content="[TOC]
+tomcat访问系统文件及文件夹1. 进入tomcat目录
+cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37
+
+2. 修改web.xml配置
+vim conf/web.xml
+
+3. 修改listings参数找到名为 default 的servlet配置。12345678910111213&amp;lt;servlet&amp;gt">
+<meta property="og:updated_time" content="2015-07-17T08:38:38.852Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="服务器问题集锦">
+<meta name="twitter:description" content="[TOC]
+tomcat访问系统文件及文件夹1. 进入tomcat目录
+cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37
+
+2. 修改web.xml配置
+vim conf/web.xml
+
+3. 修改listings参数找到名为 default 的servlet配置。12345678910111213&amp;lt;servlet&amp;gt">
+
+    
+    <link rel="alternative" href="/atom.xml" title="芳草地" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="芳草地" title="芳草地"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="芳草地">芳草地</a></h1>
+				<h2 class="blog-motto">我不是最棒的，但注定我是最有希望的。</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yeshaoting.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/07/17/article/java/服务器问题集锦/" title="服务器问题集锦" itemprop="url">服务器问题集锦</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="yeshaoting" target="_blank" itemprop="author">yeshaoting</a>
+		
+  <p class="article-time">
+    <time datetime="2015-07-17T08:38:38.852Z" itemprop="datePublished"> 发表于 2015-07-17</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#tomcat访问系统文件及文件夹"><span class="toc-number">1.</span> <span class="toc-text">tomcat访问系统文件及文件夹</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-_进入tomcat目录"><span class="toc-number">1.1.</span> <span class="toc-text">1. 进入tomcat目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-_修改web-xml配置"><span class="toc-number">1.2.</span> <span class="toc-text">2. 修改web.xml配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-_修改listings参数"><span class="toc-number">1.3.</span> <span class="toc-text">3. 修改listings参数</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>[TOC]</p>
+<h2 id="tomcat访问系统文件及文件夹">tomcat访问系统文件及文件夹</h2><h3 id="1-_进入tomcat目录">1. 进入tomcat目录</h3><blockquote>
+<p>cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37</p>
+</blockquote>
+<h3 id="2-_修改web-xml配置">2. 修改web.xml配置</h3><blockquote>
+<p>vim conf/web.xml</p>
+</blockquote>
+<h3 id="3-_修改listings参数">3. 修改listings参数</h3><p>找到名为 <strong>default</strong> 的servlet配置。<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">servlet</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">servlet-name</span>&gt;</span>default<span class="tag">&lt;/<span class="title">servlet-name</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">servlet-class</span>&gt;</span>org.apache.catalina.servlets.DefaultServlet<span class="tag">&lt;/<span class="title">servlet-class</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">init-param</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">param-name</span>&gt;</span>debug<span class="tag">&lt;/<span class="title">param-name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">param-value</span>&gt;</span>0<span class="tag">&lt;/<span class="title">param-value</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">init-param</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">init-param</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">param-name</span>&gt;</span>listings<span class="tag">&lt;/<span class="title">param-name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">param-value</span>&gt;</span>true<span class="tag">&lt;/<span class="title">param-value</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">init-param</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">load-on-startup</span>&gt;</span>1<span class="tag">&lt;/<span class="title">load-on-startup</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">servlet</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>修改listings参数值为 <strong>true</strong> 。</p>
+<p>listings参数含义说明如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--   listings            Should directory listings be produced if there --&gt;</span></span><br><span class="line"><span class="comment">&lt;!--                       is no welcome file in this directory?  [false] --&gt;</span></span><br><span class="line"><span class="comment">&lt;!--                       WARNING: Listings for directories with many    --&gt;</span></span><br><span class="line"><span class="comment">&lt;!--                       entries can be slow and may consume            --&gt;</span></span><br><span class="line"><span class="comment">&lt;!--                       significant proportions of server resources.   --&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>参考文档</strong>：<br><a href="http://blog.csdn.net/guopengzhang/article/details/5948644" target="_blank" rel="external">http://blog.csdn.net/guopengzhang/article/details/5948644</a><br><a href="http://xueli.blog.51cto.com/3325186/1585859" target="_blank" rel="external">http://xueli.blog.51cto.com/3325186/1585859</a></p>
+<a id="more"></a>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/java/">java</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/java/">java</a><a href="/tags/服务器/">服务器</a><a href="/tags/集锦/">集锦</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yeshaoting.github.io/2015/07/17/article/java/服务器问题集锦/" data-title="服务器问题集锦 | 芳草地" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/07/17/article/java/开发工具问题集锦/" title="开发工具问题集锦">
+  <strong>上一篇：</strong><br/>
+  <span>
+  开发工具问题集锦</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/07/17/article/git/推送本地git仓库/"  title="推送本地git仓库">
+ <strong>下一篇：</strong><br/> 
+ <span>推送本地git仓库
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2015/07/17/article/java/服务器问题集锦/" data-title="服务器问题集锦" data-url="http://yeshaoting.github.io/2015/07/17/article/java/服务器问题集锦/"></div>
+</section>
+
+
+</div>  
+
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#tomcat访问系统文件及文件夹"><span class="toc-number">1.</span> <span class="toc-text">tomcat访问系统文件及文件夹</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-_进入tomcat目录"><span class="toc-number">1.1.</span> <span class="toc-text">1. 进入tomcat目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-_修改web-xml配置"><span class="toc-number">1.2.</span> <span class="toc-text">2. 修改web.xml配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-_修改listings参数"><span class="toc-number">1.3.</span> <span class="toc-text">3. 修改listings参数</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/git/" title="git">git<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/java/" title="java">java<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/linux/" title="linux">linux<sup>4</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/spring/" title="spring">spring<sup>3</sup></a></li>
+		  
+		
+		  
+		
+		  
+			<li><a href="/categories/web/" title="web">web<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/开发工具/" title="开发工具">开发工具<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/数据库/" title="数据库">数据库<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/集锦/" title="集锦">集锦<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/spring/" title="spring">spring<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/小记/" title="小记">小记<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/git/" title="git">git<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/java/" title="java">java<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/mysql/" title="mysql">mysql<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/velocity/" title="velocity">velocity<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/spring特性实践/" title="spring特性实践">spring特性实践<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/spring整合实践/" title="spring整合实践">spring整合实践<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/服务器/" title="服务器">服务器<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/开发工具/" title="开发工具">开发工具<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/nginx/" title="nginx">nginx<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/五笔/" title="五笔">五笔<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/命令/" title="命令">命令<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/ubuntu/" title="ubuntu">ubuntu<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/软件/" title="软件">软件<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/tablib/" title="tablib">tablib<sup>1</sup></a></li>
+			
+		
+			
+		
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://jarg.iteye.com" target="_blank" title="爪哇哥的爪哇岛">爪哇哥的爪哇岛</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello, I&#39;m yeshaoting in Sohu. <br/>
+			This is my blog, believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/1873363984" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/yeshaoting" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<a href="mailto:yeshaoting@163.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="/about" target="_blank" title="yeshaoting">yeshaoting</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"yeshaoting"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
