@@ -1,10 +1,10 @@
 
 categories:
- - linux
+- linux
 
 tags:
- - linux
- - nginx
+- linux
+- nginx
 
 title: linux安装nginx
 ---
@@ -19,8 +19,10 @@ Nginx服务器的安装配置
 
 
 ## 2. 编译
+``` shell
 cd nginx-x.x.xx
-./configure --with-http_stub_status_module --prefix=/home/yeshaoting/java/server/nginx/nginx-1.8.0  --without-http_rewrite_module --without-http_gzip_module
+./configure --with-http_stub_status_module --prefix=/home/yeshaoting/java/server/nginx/nginx-1.8.0 --without-http_rewrite_module --without-http_gzip_module
+```
 
 
-[^1]: http://minitoo.blog.51cto.com/4201040/850654
+参考：[Nginx服务器的安装配置](http://minitoo.blog.51cto.com/4201040/850654)
