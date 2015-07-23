@@ -225,6 +225,11 @@ sudo apt-get install gstreamer0.10-ffmpeg
 
 
 
+### 27. 安装curl
+> sudo apt-get install curl
+
+
+
 ## 二、开发软件
 
 ### 1. 安装git
@@ -415,6 +420,10 @@ nautilus -q
 **参考**：[Folder Color 已添加到 Ubuntu 15.04 默认库中][^12]
 
 
+### ubuntu截图默认保存位置
+**参考**：[Default save directory for gnome-screenshot?][^13]
+
+
 
 [^1]: http://www.elain.org/?p=742
 [^2]: http://pkgs.org/ubuntu-14.04/getdeb-apps-amd64/chmsee_1.3.1.1-1~getdeb2_amd64.deb.html
@@ -428,4 +437,4 @@ nautilus -q
 [^10]: http://wiki.deepin.org/index.php?title=%E4%BF%A1%E4%BD%BF
 [^11]: http://imcn.me/html/y2014/19624.html
 [^12]: http://imcn.me/html/y2015/23176.html
-
+[^13]: http://askubuntu.com/a/134469
