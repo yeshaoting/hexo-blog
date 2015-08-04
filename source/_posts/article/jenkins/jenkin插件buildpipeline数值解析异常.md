@@ -13,7 +13,15 @@ title: jenkins build-pipeline-plugin 数值解析异常
 
 jenkins version: 1.574
 
-## 异常描述
+## 问题分析
+这是jenkins 里使用了 build-pipeline-plugin，这个插件解析有问题。
+目前，这个bug已经有人修复，处于resolved状态，等待异常报告者验收，修改代码目前是应该处于未发布状态。
+
+**参考**：[Jenkins gives strack trace on main page](https://issues.jenkins-ci.org/browse/JENKINS-24102)
+
+<!-- more -->
+
+## 异常堆栈
 遇到的异常堆栈内容如下：
 ``` java
 A problem occurred while processing the request. Please check our bug tracker to see if a similar problem has already been reported. If it is already reported, please vote and put a comment on it to let us gauge the impact of the problem. If you think this is a new issue, please file a new issue. When you file an issue, make sure to add the entire stack trace, along with the version of Jenkins and relevant plugins. The users list might be also useful in understanding what has happened.
@@ -186,13 +194,6 @@ Caused by: java.lang.NumberFormatException: null
 	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
 	... 111 more
 ```
-
-
-## 问题分析
-这是jenkins 里使用了 build-pipeline-plugin，这个插件解析有问题。
-目前，这个bug已经有人修复，处于resolved状态，等待异常报告者验收，修改代码目前是应该处于未发布状态。
-
-**参考**：[Jenkins gives strack trace on main page](https://issues.jenkins-ci.org/browse/JENKINS-24102)
 
 
 ## 解决方案
