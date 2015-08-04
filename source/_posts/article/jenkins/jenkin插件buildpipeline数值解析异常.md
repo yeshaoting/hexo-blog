@@ -4,7 +4,7 @@ categories:
 
 tags:
   - jenkins
-  - exception
+  - 问题
 
 title: jenkins build-pipeline-plugin 数值解析异常
 ---
