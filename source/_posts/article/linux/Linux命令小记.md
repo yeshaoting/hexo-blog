@@ -108,8 +108,8 @@ linux 下查看文件个数及大小
 
 
 ## 18. 获取shell脚本位置/当前脚本目录
-不能解决软链接问题：$(cd "$(dirname "$0")"; pwd)
-最靠谱，能处理软链接的情况以及source加载脚本的情况：echo $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+不能解决软链接问题：`$(cd "$(dirname "$0")"; pwd)`
+最靠谱，能处理软链接的情况以及source加载脚本的情况：`echo $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )`
 
 
 ## 19. tar打包文件，exclude选项排除指定文件或目录

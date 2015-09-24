@@ -166,6 +166,13 @@ bootstrap
 
 
 ## node节点
+``` javascript
+var links = document.getElementsByClassName("model-link");
+for (var i=0;i<links.length;i++)
+{
+	console.log(links[i].innerText);
+}
+```
 ``` ini
 10.10.1.11
 10.10.1.12
