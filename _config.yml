@@ -82,3 +82,8 @@ deploy:
   type: git
   repo: git@github.com:yeshaoting/yeshaoting.github.io.git
   branch: master
+
+admin:
+  username: yeshaoting
+  password_hash: 2e7411bfe10b42f674f1c44a997e9f6b
+  secret: a secret something

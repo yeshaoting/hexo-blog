@@ -1,11 +1,9 @@
-
 categories:
- - web
-
+  - web
 tags:
- - tablib
-
+  - taglib
 title: 自定义taglib
+date: 2015-12-29 15:59:00
 ---
 
 [TOC]

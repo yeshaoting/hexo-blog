@@ -6,8 +6,6 @@ categories:
   - mac
 date: 2015-12-29 17:56:00
 ---
-
-
 [TOC]
 
 
@@ -269,8 +267,25 @@ export LSCOLORS=gxfxaxdxcxegedabagacad
 syntax on
 ```
 
-### 14. tree
+### 14. brew
+
+#### 安装HomeBrew
+``` shell
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### 安装Homebrew Cask
+``` shell
+brew install caskroom/cask/brew-cask
+```
+
+
+### 15. tree
 ``` shell
 brew install tree
 ```
 
+### 16. wget
+``` shell
+brew install wget
+```

@@ -1,3 +1,6 @@
 .DS_Store
-/public/
-/.deploy_git/
+Thumbs.db
+db.json
+*.log
+public/
+.deploy*/

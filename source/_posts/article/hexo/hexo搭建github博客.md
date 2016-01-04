@@ -131,7 +131,7 @@ stylus:
 Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。
 
 ### 安装 hexo-deployer-git
-npm install hexo-deployer-git --save
+`npm install hexo-deployer-git --save`
 
 ### 修改配置
 ``` shell
@@ -153,7 +153,7 @@ hexo deploy
 ## 五、本地预览
 
 ## 安装 hexo-server
-npm install hexo-server --save
+`npm install hexo-server --save`
 
 ## 启动服务
 
