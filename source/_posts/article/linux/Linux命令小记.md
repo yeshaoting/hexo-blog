@@ -241,7 +241,7 @@ sed "/ *server *id=\"/,/<\/server>/{s/\(\<watchdog-port>\).*\(<\/watchdog-port>\
 
 ## 37. shell注释
 ``` shell
-:<<comment
+:&lt;&lt;comment
 这里是个注释哈。
 comment
 ```
@@ -282,4 +282,28 @@ finger [USERNAME]
 ``` shell
 grep -irL "date:" file.txt
 ```
+
+## 45. 理解 bashrc 和 profile
+参见：https://wido.me/sunteya/understand-bashrc-and-profile
+
+### login shell 和 no-login shell
+“login shell” 代表用户登入, 比如使用 “su -“ 命令, 或者用 ssh 连接到某一个服务器上, 都会使用该用户默认 shell 启动 login shell 模式.
+该模式下的 shell 会去自动执行 /etc/profile 和 ~/.profile 文件, 但不会执行任何的 bashrc 文件, 所以一般再 /etc/profile 或者 ~/.profile 里我们会手动去 source bashrc 文件.
+而 no-login shell 的情况是我们在终端下直接输入 bash 或者 bash -c “CMD” 来启动的 shell.
+该模式下是不会自动去运行任何的 profile 文件.
+
+### interactive shell 和 non-interactive shell
+interactive shell 是交互式shell, 顾名思义就是用来和用户交互的, 提供了命令提示符可以输入命令.
+该模式下会存在一个叫 PS1 的环境变量, 如果还不是 login shell 的则会去 source /etc/bash.bashrc 和 ~/.bashrc 文件
+non-interactive shell 则一般是通过 bash -c “CMD” 来执行的bash.
+该模式下不会执行任何的 rc 文件, 不过还存在一种特殊情况这个我之后详细讲述
+
+### bashrc 和 profile 的区别
+看了之前那么多种状态组合, 最关键的问题是, 究竟 bashrc 和 profile 有什么区别呢?
+
+#### profile
+其实看名字就能了解大概了, profile 是某个用户唯一的用来设置环境变量的地方, 因为用户可以有多个 shell 比如 bash, sh, zsh 之类的, 但像环境变量这种其实只需要在统一的一个地方初始化就可以了, 而这就是 profile.
+
+#### bashrc
+bashrc 也是看名字就知道, 是专门用来给 bash 做初始化的比如用来初始化 bash 的设置, bash 的代码补全, bash 的别名, bash 的颜色. 以此类推也就还会有 shrc, zshrc 这样的文件存在了, 只是 bash 太常用了而已.
 
