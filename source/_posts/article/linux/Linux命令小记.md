@@ -1,13 +1,11 @@
-
 categories:
- - linux
-
+  - linux
 tags:
- - linux
- - 小记
- - 命令
-
+  - linux
+  - 命令
+  - 小记
 title: Linux命令小记
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

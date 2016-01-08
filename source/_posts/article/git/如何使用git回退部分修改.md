@@ -1,11 +1,9 @@
-
 categories:
- - git
-
+  - git
 tags:
- - git
-
+  - git
 title: 回滚git代码版本
+date: 2015-12-29 13:58:00
 ---
 
 **参考**：[Git的撤消操作 - 重置, 签出 和 撤消][^1]

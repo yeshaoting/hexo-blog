@@ -1,12 +1,10 @@
-
 categories:
- - linux
-
+  - linux
 tags:
   - linux
   - ubuntu
-
 title: Ubuntu更改截图默认保存位置
+date: 2015-12-29 13:58:00
 ---
 
 ## 图形界面

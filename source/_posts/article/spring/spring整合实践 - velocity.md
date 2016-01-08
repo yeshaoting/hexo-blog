@@ -1,10 +1,10 @@
-
 categories:
-	- spring
+  - spring
 tags:
-	- spring整合实践
-	- spring
+  - spring
+  - spring整合实践
 title: spring整合实践 - velocity
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

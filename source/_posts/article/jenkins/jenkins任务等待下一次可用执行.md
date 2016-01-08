@@ -1,13 +1,11 @@
-
 categories:
   - jenkins
-
 tags:
   - jenkins
   - 持续集成
   - 问题
-
 title: jenkins任务等待下一次可用执行
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

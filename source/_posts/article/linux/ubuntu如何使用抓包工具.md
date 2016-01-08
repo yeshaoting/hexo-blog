@@ -1,13 +1,11 @@
-
 categories:
- - linux
-
-tags:
-  - 抓包
-  - ubuntu
   - linux
-
+tags:
+  - linux
+  - ubuntu
+  - 抓包
 title: ubuntu如何使用抓包工具
+date: 2015-12-29 13:58:00
 ---
 
 ## 借助fiddler

@@ -1,13 +1,11 @@
-
 categories:
- - linux
-
+  - linux
 tags:
- - linux
- - ubuntu
- - 软件
-
+  - linux
+  - ubuntu
+  - 软件
 title: ubuntu装机软件
+date: 2015-12-29 13:58:00
 ---
 
 修改软件源为163的源。

@@ -1,12 +1,10 @@
-
 categories:
- - linux
-
+  - linux
 tags:
- - linux
- - 五笔
-
+  - linux
+  - 五笔
 title: Linux安装极点五笔的方法
+date: 2015-12-29 13:58:00
 ---
 
 参考：http://hi.baidu.com/hkdog/item/8ae75ea5938e23de5af191ff

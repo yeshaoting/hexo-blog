@@ -1,12 +1,10 @@
-
 categories:
-- linux
-
+  - linux
 tags:
-- linux
-- nginx
-
+  - linux
+  - nginx
 title: linux安装nginx
+date: 2015-12-29 13:58:00
 ---
 
 Nginx服务器的安装配置

@@ -1,13 +1,11 @@
-
 categories:
   - jenkins
-
 tags:
   - jenkins
   - 持续集成
   - 问题
-
-title: jenkins中文乱码&服务启动
+title: 'jenkins中文乱码&服务启动'
+date: 2015-12-29 13:58:00
 ---
 
 

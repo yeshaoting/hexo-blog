@@ -1,11 +1,9 @@
-
 categories:
- - git
-
+  - git
 tags:
- - git
-
+  - git
 title: 推送本地git仓库
+date: 2015-12-29 13:58:00
 ---
 
 本文参考：[Create Local Git Repo & Push to GitHub][1]
