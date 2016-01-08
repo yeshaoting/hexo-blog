@@ -1,7 +1,5 @@
 categories:
   - cache
-tag:
-  - redis
 title: redis单机多实例部署
 tags:
   - redis
