@@ -3,18 +3,17 @@ date: 2015-12-29 15:51:00
 title: 关于
 ---
 
-嗨，我是叶绍亭，80后，将近而立之年，目前是在美团工作的Web开发者一枚。
-你可以通过 Email 或 在下方留言 与我取得联系。
-
-
-## 概况
-邮箱：yeshaoting@163.com
-主页：http://yeshaoting.github.io
-
-技术博客：http://jarg.iteye.com
-微博：@木然萧萧
-
+hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的Web开发者一枚。
 计算机专业毕业，3年在职工作经验，5年web开发经验。
+
+本人酷爱计算机，执着于编程，崇尚技术，立志成为技术大牛。
+
+
+## 联系我
+ - 邮箱：yeshaoting@163.com
+ - 主页：http://yeshaoting.github.io
+ - 技术博客：http://jarg.iteye.com
+ - 微博：[@悠然萧萧](http://weibo.com/jarg)
 
 
 ## 教育经历
