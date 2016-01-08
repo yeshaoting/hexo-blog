@@ -278,10 +278,12 @@ echo $BASH_VERSION
 ## 43. 查看用户使用的shell版本
 finger [USERNAME]
 
+
 ## 44. 递归查询不包含指定内容的文件
 ``` shell
 grep -irL "date:" file.txt
 ```
+
 
 ## 45. 理解 bashrc 和 profile
 参见：https://wido.me/sunteya/understand-bashrc-and-profile
@@ -301,9 +303,9 @@ non-interactive shell 则一般是通过 bash -c “CMD” 来执行的bash.
 ### bashrc 和 profile 的区别
 看了之前那么多种状态组合, 最关键的问题是, 究竟 bashrc 和 profile 有什么区别呢?
 
-#### profile
+**profile**
 其实看名字就能了解大概了, profile 是某个用户唯一的用来设置环境变量的地方, 因为用户可以有多个 shell 比如 bash, sh, zsh 之类的, 但像环境变量这种其实只需要在统一的一个地方初始化就可以了, 而这就是 profile.
 
-#### bashrc
+**bashrc**
 bashrc 也是看名字就知道, 是专门用来给 bash 做初始化的比如用来初始化 bash 的设置, bash 的代码补全, bash 的别名, bash 的颜色. 以此类推也就还会有 shrc, zshrc 这样的文件存在了, 只是 bash 太常用了而已.
 
