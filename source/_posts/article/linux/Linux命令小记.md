@@ -5,8 +5,10 @@ tags:
   - 命令
   - 小记
 title: Linux命令小记
-date: 2015-12-29 13:58:00
+date: 2016 2016-01-08 12:23:00
 ---
+
+# Linux命令小记
 
 [TOC]
 
@@ -246,18 +248,22 @@ comment
 
 
 ## 38. 截取程序日志中某个时间范围内的文本
-``` xml
+``` shell
 sed -n '/^2015-05-14 15:32:30/,/^2015-05-14 16:12:09/p' access_log > log.txt
 ```
 
 
 ## 39. 重启ibus
+``` shell
 killall ibus-daemon
 ibus-daemon -drx
+```
 
 
 ## 40. 删除重复的、非连续的行
+``` shell
 `awk '! a[$0]++'`
+```
 
 
 ## 41. awk使用特殊分隔符分隔列
@@ -269,24 +275,11 @@ echo "192.168.102.134" | awk -F . '{print $4}'
 echo $BASH_VERSION
 
 
+## 43. 查看用户使用的shell版本
+finger [USERNAME]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 44. 递归查询不包含指定内容的文件
+``` shell
+grep -irL "date:" file.txt
+```
 
