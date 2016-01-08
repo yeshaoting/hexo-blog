@@ -1,8 +1,8 @@
-
 tags:
- - velocity
-
+  - velocity
 title: 找不到自定义的velocity宏资源文件macro.vm
+categories: []
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

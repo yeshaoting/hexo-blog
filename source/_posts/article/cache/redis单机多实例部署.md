@@ -1,11 +1,11 @@
-
 categories:
   - cache
-
 tag:
   - redis
-
 title: redis单机多实例部署
+tags:
+  - redis
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

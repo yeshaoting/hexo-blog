@@ -1,12 +1,12 @@
-
 categories:
   - cache
-
-tag:
+tags:
   - redis
-
 title: redis使用手记
+date: 2015-12-29 13:58:00
 ---
+
+# redis使用手记
 
 ## 服务监控
 

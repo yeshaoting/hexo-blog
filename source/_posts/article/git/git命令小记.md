@@ -1,12 +1,10 @@
-
 categories:
- - git
-
+  - git
 tags:
- - git
- - 小记
-
+  - git
+  - 小记
 title: git命令小记
+date: 2015-12-29 13:58:00
 ---
 
 

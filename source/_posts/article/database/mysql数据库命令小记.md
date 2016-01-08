@@ -1,12 +1,10 @@
-
 categories:
- - 数据库
-
+  - 数据库
 tags:
- - mysql
- - 小记
-
+  - mysql
+  - 小记
 title: mysql数据库命令小记
+date: 2015-12-29 13:58:00
 ---
 
 [TOC]

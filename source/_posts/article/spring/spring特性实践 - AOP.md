@@ -1,10 +1,10 @@
-
 categories:
-	- spring
+  - spring
 tags:
-	- spring特性实践
-	- spring
+  - spring
+  - spring特性实践
 title: spring特性实践 - AOP
+date: 2015-12-29 13:58:00
 ---
 
 此段内容说明如何使用spring aop，并通过一个函数耗时统计切面demo来讲述使用具体步骤。
