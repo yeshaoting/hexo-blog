@@ -10,7 +10,7 @@ hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的W
 
 
 ## 联系我
- - 邮箱：yeshaoting@163.com
+ - 邮箱：[yeshaoting@163.com](mailto:yeshaoting@163.com)
  - 主页：http://yeshaoting.github.io
  - 技术博客：http://jarg.iteye.com
  - 微博：[@悠然萧萧](http://weibo.com/jarg)
