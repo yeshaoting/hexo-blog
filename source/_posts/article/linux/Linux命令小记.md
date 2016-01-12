@@ -4,8 +4,8 @@ tags:
   - linux
   - 命令
   - 小记
-title: Linux命令小记
 date: 2016 2016-01-11 17:44:00
+title: Linux命令小记
 ---
 
 [TOC]
