@@ -355,4 +355,8 @@ ibus-daemon -drx
 ### 4. 查看用户使用的shell版本
 finger [USERNAME]
 
+### 5. tee
+重定向到文件并打印到屏幕
+
+参见：[tee--重定向到文件并打印到屏幕](http://blog.csdn.net/love_gaohz/article/details/8100808)
 
