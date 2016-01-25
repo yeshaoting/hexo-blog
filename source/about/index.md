@@ -31,11 +31,24 @@ hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的W
 | 百度 | Java工程师 | 2006-07-11 ~ 2014-12-15 |
 
 
-## 技术栈
+## 关注技术
+**后端**：`java`、`spring`、`mybatis`、`hibernate`、`quartz`
+**前端**：`jquery`、`bootstrap`、`angularjs`
+**系统**：`linux`、`shell`、`vim`
+**测试**：`jmeter`、`selenium`
+**搜索**：`solr`、`lucene`
+**数据库**：`mysql`
+**持续集成**：`jenkins`
 
 
 ## 个人箴言
 我不是最棒的，但注定我是最有希望的。
 
 
-## 关于主页
+## 关于博客
+借助hexo搭建的博客，静态页面代码托管在github上。
+
+
+## 声明
+博客所有观点纯属个人理解，如有误导请指正。
+
