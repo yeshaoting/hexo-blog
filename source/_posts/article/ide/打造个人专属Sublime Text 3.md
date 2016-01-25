@@ -1,8 +1,8 @@
 title: 打造个人专属Sublime Text 3
 tags:
+  - 开发工具
   - ide
 categories:
-  - ide
   - 开发工具
 date: 2016-01-25 14:28:00
 ---
