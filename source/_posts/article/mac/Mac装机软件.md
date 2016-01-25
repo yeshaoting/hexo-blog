@@ -126,6 +126,8 @@ C0FHYYCJ22-eyJsaWNlbnNlSWQiOiJDMEZIWVlDSjIyIiwibGljZW5zZWVOYW1lIjoid2VpIGh1YW5nI
 ### 4. maven
 
 ### 5. securecrt
+注册的主机配置路径：cd ~/Library/Application\ Support/VanDyke/SecureCRT/Config/Sessions/
+
 参见：
  - [Mac下面的SecureCRT(附破解方案) 更新到最新的7.2](http://bbs.feng.com/read-htm-tid-6939481.html)
  - 评论[Mac下面的SecureCRT(附破解方案) 更新到最新的7.3.2](http://blog.csdn.net/skykingf/article/details/17450561)
