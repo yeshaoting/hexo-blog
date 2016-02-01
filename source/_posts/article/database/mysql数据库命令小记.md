@@ -1,8 +1,9 @@
 categories:
-  - 数据库
+  - database
 tags:
   - mysql
   - 小记
+  - 命令
 title: mysql数据库命令小记
 date: 2015-12-29 13:58:00
 ---

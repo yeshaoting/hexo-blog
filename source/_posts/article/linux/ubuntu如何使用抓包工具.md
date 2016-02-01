@@ -1,7 +1,7 @@
 categories:
+  - tool
   - linux
 tags:
-  - linux
   - ubuntu
   - 抓包
 title: ubuntu如何使用抓包工具

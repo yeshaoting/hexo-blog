@@ -1,8 +1,8 @@
 categories:
   - linux
 tags:
-  - linux
   - nginx
+  - linux
 title: linux安装nginx
 date: 2015-12-29 13:58:00
 ---

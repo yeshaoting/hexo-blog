@@ -2,6 +2,7 @@ categories:
   - spring
 tags:
   - spring
+  - 问题
 title: spring mvc service实例化二次问题
 date: 2015-12-29 13:58:00
 ---

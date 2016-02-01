@@ -3,6 +3,7 @@ categories:
 tags:
   - spring
   - spring整合实践
+  - velocity
 title: spring整合实践 - velocity
 date: 2015-12-29 13:58:00
 ---

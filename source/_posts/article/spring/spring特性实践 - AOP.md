@@ -3,6 +3,7 @@ categories:
 tags:
   - spring
   - spring特性实践
+  - aop
 title: spring特性实践 - AOP
 date: 2015-12-29 13:58:00
 ---

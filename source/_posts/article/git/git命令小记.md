@@ -3,6 +3,7 @@ categories:
 tags:
   - git
   - 小记
+  - 命令
 title: git命令小记
 date: 2015-12-29 13:58:00
 ---

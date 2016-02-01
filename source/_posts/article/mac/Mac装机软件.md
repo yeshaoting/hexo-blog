@@ -1,7 +1,8 @@
 title: Mac装机软件
 tags:
-  - 小记
   - mac
+  - 小记
+  - 装机
 categories:
   - mac
 date: 2015-12-29 17:56:00

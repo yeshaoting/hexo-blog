@@ -1,19 +1,24 @@
-title: 借助hexo搭建github博客
-tags: []
-categories: []
+title: hexo搭建github博客
+tags:
+  - hexo
+  - github
+categories:
+  - hexo
 date: 2015-12-29 14:04:00
 ---
 
 [TOC]
 
 ## 一、创建Github Pages
-Github Pages为我们提供静态页面的托管。[^2]
+Github Pages为我们提供静态页面的托管。
+参见：[一步步在GitHub上创建博客主页(2)](http://www.pchou.info/web-build/2013/01/05/build-github-blog-page-02.html)
 
 ### 1. 注册github账号
 登录github.com，创建用户账号：yeshaoting。
 访问地址：https://github.com/yeshaoting
 
-### 2. 配置和使用github[^1]
+### 2. 配置和使用github
+参见：[如何搭建一个独立博客——简明 Github Pages与 jekyll 教程](http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)
 
 #### 生成新的SSH Key
 ``` shell
@@ -42,18 +47,19 @@ ssh -T git@github.com
 ![github上建立仓库](http://cnfeat.qiniudn.com/13.png)
 
 
-## 二、安装hexo[^3]
-
+## 二、安装hexo
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 官方中文网址：https://hexo.io/zh-cn/
+
+参见：[如何搭建一个独立博客——简明 Github Pages与 jekyll 教程](http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)
 
 ### 1. 安装node js
 登录：https://nodejs.org/，并下载安装包。
 安装或解压node js到对应的目录 NODEJS_HOME。
 将 $NODEJS_HOME/bin 目录添加到系统环境变量PATH里。
 
-### 2. 安装hexo[^1]
+### 2. 安装hexo
 Hexo的作者是tommy351，根据官方介绍，Hexo是一个简单、快速、强大的博客发布工具，支持Markdown格式。
 
 ``` shell
@@ -120,7 +126,7 @@ timezone: Asia/Shanghai
 ## 安装主题
 官方收纳的主题：http://hexo.io/themes/
 我选用 jacman 主题。
-点击进入http://wuchong.me/jacman/介绍页有相关的安装指南[^4]。
+点击进入http://wuchong.me/jacman/介绍页有相关的安装指南：[如何使用 Jacman 主题](http://wuchong.me/jacman/2014/11/20/how-to-use-jacman/)。
 
 **注**：下载完主题后，需要修改_config.yml文件，如下所示：
 ``` shell
@@ -129,8 +135,10 @@ stylus:
   compress: true
 ```
 
-## 四、服务部署[^3]
+## 四、服务部署
+参见：[hexo官方网站](https://hexo.io/zh-cn/docs/)
 Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。
+
 
 ### 安装 hexo-deployer-git
 `npm install hexo-deployer-git --save`
@@ -199,9 +207,3 @@ hexo s == hexo server
 hexo d == hexo deploy
 ```
 
-
-
-[^1]: http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/
-[^2]: http://www.pchou.info/web-build/2013/01/05/build-github-blog-page-02.html
-[^3]: https://hexo.io/zh-cn/docs/
-[^4]: http://wuchong.me/jacman/

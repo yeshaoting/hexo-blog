@@ -1,8 +1,11 @@
 categories:
   - jenkins
+  - shell
 tags:
   - jenkins
   - 持续集成
+  - 脚本
+  - ''
 title: jenkins节点重启脚本
 date: 2015-12-29 13:58:00
 ---

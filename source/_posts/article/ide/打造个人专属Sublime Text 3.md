@@ -1,9 +1,10 @@
 title: 打造个人专属Sublime Text 3
 tags:
-  - 开发工具
   - ide
-categories:
   - 开发工具
+  - sublime
+categories:
+  - ide
 date: 2016-01-25 14:28:00
 ---
 
@@ -63,7 +64,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 
 	// 高亮当前行
 	"highlight_line": true,
-    
+
 	// 新标签页打开文件
 	"preview_on_click": false,
 
@@ -102,6 +103,8 @@ SublimeText的升级挺快的，每次升级完之后都要重新破解一次主
 ``` json
 "remember_open_files": false
 ```
+
+<!-- more -->
 
 ### 5. Sublime Text 2 使用 Eclipse 快捷键
 [Sublime Text User Preferences -- Eclipse shortcuts for Sublime Text](https://gist.github.com/ufologist/5590481#file-package-control-sublime-settings)
