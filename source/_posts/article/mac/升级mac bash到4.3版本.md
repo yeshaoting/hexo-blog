@@ -4,11 +4,8 @@ tags:
   - shell
   - bash
 categories:
-  - mac
   - shell
 date: 2016-01-29 18:52:00
----
-
 ---
 
 # 升级mac bash到4.3版本

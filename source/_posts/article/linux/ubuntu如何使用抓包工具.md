@@ -1,6 +1,5 @@
 categories:
   - tool
-  - linux
 tags:
   - ubuntu
   - 抓包
