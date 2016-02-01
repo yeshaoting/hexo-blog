@@ -138,6 +138,7 @@ echo -e '数组值(大小写敏感)${arr[c]}:\t'${arr[c]};
 shell里默认使用空格、制表符以及换行为分隔符。
 
 ### 2. 数组转换
+字符串可通过()默认通过IFS将字符串直接转换成数组。
 ``` bash
 yerba-buena:tmp yeshaoting$ str="1 3 2 7 5"
 yerba-buena:tmp yeshaoting$ arr=($str)
@@ -153,6 +154,27 @@ yerba-buena:tmp yeshaoting$ echo ${!arr[@]}
 
 ### 4. 关联数组键有序
 关联数组依键有序，与插入数组顺序无关。如上例中数组输出结果为：A1 B411 C2 E3 b5。
+
+### 5. 索引负值
+数组索引负值表示从数组末尾输出。其中，-1表示数组最后一个元素，-max_num-1表示数组第一个元素。
+如果索引值index<-max_num-1，则会报“数组下标不正确”的异常。
+``` bash
+yerba-buena:tmp yeshaoting$ arr=(1 3 2 7 5)
+yerba-buena:tmp yeshaoting$ echo ${arr[-1]}
+5
+yerba-buena:tmp yeshaoting$ echo ${arr[-5]}
+1
+yerba-buena:tmp yeshaoting$ echo ${arr[-6]}
+-bash: arr: 数组下标不正确
+```
+
+### 6. 索引超过数组最大个数
+不输出任何内容，也不会报错。
+``` bash
+yerba-buena:tmp yeshaoting$ arr=(1 3 2 7 5)
+yerba-buena:tmp yeshaoting$ echo ${arr[6]}
+```
+
 
 
 ## 四、参考文档
