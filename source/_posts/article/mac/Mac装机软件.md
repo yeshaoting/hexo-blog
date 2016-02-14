@@ -88,7 +88,7 @@ http://www.pc6.com/mach/macdtime/
 #### VPN
 [公司办公网VPN服务使用指南](http://wiki.sankuai.com/pages/viewpage.action?pageId=46338234)
 
-**公司办公网VPN服务使用指南** 中包含有mac与windows连接公司办公网的方法及软件链接。
+**公司办公网VPN服务使用指南** 中包含有mac与windows连接公司办公网的方法及软件链接。[^]
 mac软件：Tunnelblick
 windows软件：OpenVPN
 
@@ -99,6 +99,18 @@ windows软件：OpenVPN
 
 ### 12. tuxera ntfs
 自动加载ntfs格式移动设备，并支持读写。
+
+### 13. CheatSheet
+只需长按住 ⌘-command 键就可以显示当前程序的快捷键列表，仅支持 Mac 系统，就这么简单。
+
+CheatSheet 能显示出几乎所有程序的快捷键列表，而列表中的功能，除了可以用快捷键操作，也是可以点的。如果你不喜欢用菜单，用 CheatSheet 来开启功能也是一个不错的办法。
+
+参见：[CheatSheet – 显示当前程序快捷键列表[Mac]](http://www.appinn.com/cheatsheet/)
+
+### 14. HyperDock
+HyperDock是一款可以让你的mac系统的任务栏浏览器图标能像win7系统那样显示当前已打开的网页略缩图，除此之外还可以平均分配画面，往左右一拉可以缺成两个平均画面，网上拉可以变成全屏幕。
+
+HyperDock for Mac 1.5.2 中文破解版百度云盘直接下载：http://pan.baidu.com/s/1pJHv16F
 
 ### x. 更多应用软件
 参见：[装机必备](http://www.maczapp.com/zjbb)
@@ -294,3 +306,16 @@ brew install tree
 ``` shell
 brew install wget
 ```
+
+
+### 17. 禁止修改文件扩展名的警告
+**借助终端**
+``` bash
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+killall Finder
+```
+
+**界面设置**
+> 其实只要直接在 Finder 中按＂⌘,＂进入 Preferences，然后选择 “Advanced” – 取消 “Show warning before changing an extension” 前面的勾就可以了。
+
+参见：[OS X 小技巧 – 禁止修改文件扩展名的警告[Mac]](http://www.appinn.com/disablefile-extension-warning/)
