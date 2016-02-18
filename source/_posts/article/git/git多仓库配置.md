@@ -39,3 +39,9 @@ git config user.email "yeshaoting@163.com"
 
 会修改当前仓库.git/config文件内容。
 此文件里的配置会覆盖全局配置里相同的配置内容。
+
+
+## 三、参考文档
+ - [1.5 起步 - 初次运行 Git 前的配置](https://git-scm.com/book/zh/v1/起步-初次运行-Git-前的配置)
+ - [Git: Using Different User Emails for Different Repositories](https://orrsella.com/2013/08/10/git-using-different-user-emails-for-different-repositories/)
+ - [Set git email address on a per repository basis](http://dereenigne.org/git/set-git-email-address-on-a-per-repository-basis)
