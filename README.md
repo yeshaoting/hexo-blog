@@ -1,8 +1,7 @@
 
-[TOC]
-
 ## 关于博客
 借助hexo搭建的博客，静态页面代码托管在github上。
+
 地址：http://yeshaoting.github.io
 
 
