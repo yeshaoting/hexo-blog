@@ -1,12 +1,12 @@
 categories:
   - git
 tags:
-  - git
+  - 回滚
 title: 回滚git代码版本
 date: 2015-12-29 13:58:00
 ---
 
-**参考**：[Git的撤消操作 - 重置, 签出 和 撤消][^1]
+**参考**：[Git的撤消操作 - 重置, 签出 和 撤消](http://gitbook.liuhui998.com/4_9.html)
 
 错提交代码，或者某个版本代码之后想要回滚回来的话，就会遇到需要回滚代码版本的问题。
 
@@ -15,9 +15,9 @@ date: 2015-12-29 13:58:00
 2. 已提交代码
 
 
-## 回滚未提交代码
+## 一、回滚未提交代码
 
-[git reset三种方式][^3]：
+[git reset三种方式](http://blog.csdn.net/wujiangguizhen/article/details/10609647)：
 1. 只回滚本地代码库(HEAD)内容，不回滚索引(index)和工作区(working)内容。
 `git reset --soft 版本号`
 
@@ -44,7 +44,7 @@ date: 2015-12-29 13:58:00
 
 ### 举例说明
 
-**参考**：[git-reset][^2]
+**参考**：[git-reset](https://git-scm.com/docs/git-reset)
 
 #### 举例1
 | # | working | index | HEAD | target |
@@ -64,12 +64,12 @@ date: 2015-12-29 13:58:00
 
 
 
-## 回滚已提交代码
+## 二、回滚已提交代码
 
 
-### 回滚已经提交，且已发布代码
+### 1. 回滚已经提交，且已发布代码
 
-参考：[git revert 用法][^5]
+参考：[git revert 用法](http://blog.chinaunix.net/uid-26770731-id-3285880.html)
 
 git revert撤销某次操作，此次操作之前和之后的commit和history都会保留，并且把这次撤销作为一次最新的提交。
 git revert是提交一个新的版本，将需要revert的版本的内容再反向修改回去，版本会递增，不影响之前提交的内容。
@@ -107,9 +107,9 @@ commit a00d98c53e86182054eb4e77a18e3044f5f9d658
 
 
 
-### 回滚已经提交，但未发布代码
+### 2. 回滚已经提交，但未发布代码
 
-**参考**：[Git 基础 - 撤消操作][^4]
+**参考**：[Git 基础 - 撤消操作](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C)
 
 ``` shell
 git commit -m 'initial commit'
@@ -117,9 +117,3 @@ git add forgotten_file
 git commit --amend
 ```
 
-
-[^1]: http://gitbook.liuhui998.com/4_9.html
-[^2]: https://git-scm.com/docs/git-reset
-[^3]: http://blog.csdn.net/wujiangguizhen/article/details/10609647
-[^4]: https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C
-[^5]: http://blog.chinaunix.net/uid-26770731-id-3285880.html

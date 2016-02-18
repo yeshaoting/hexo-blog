@@ -1,15 +1,11 @@
 categories:
   - git
 tags:
-  - git
   - 小记
   - 命令
 title: git命令小记
 date: 2015-12-29 13:58:00
 ---
-
-
-[TOC]
 
 
 ## 1. git日志格式化

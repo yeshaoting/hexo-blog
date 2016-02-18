@@ -1,36 +1,31 @@
 categories:
   - git
 tags:
-  - git
+  - 代码推送
 title: 推送本地git仓库
 date: 2015-12-29 13:58:00
 ---
 
-本文参考：[Create Local Git Repo & Push to GitHub][1]
-
-[TOC]
+本文参考：[Create Local Git Repo & Push to GitHub](https://www.texniq.de/en/web-engineering-i/create-local-git-repo-and-push-to-github)
 
 
-## 操作步骤
+## 一、打开终端
 
-
-### 一、打开终端
-
-### 二、到本地文件目录
+## 二、到本地文件目录
  > cd /home/developer/public_html
 
-### 三、配置git
+## 三、配置git
 用户名：
- > `git config --global user.name "叶绍亭"`
+`git config --global user.name "叶绍亭"`
 
 邮箱：
- > `git config --global user.email "yeshaoting@163.com"`
+`git config --global user.email "yeshaoting@163.com"`
 
 配色方案：
- > `git config --global color.ui auto`
+`git config --global color.ui auto`
 
-### 四、 项目初始化
- > git init
+## 四、 项目初始化
+`git init`
 
 初始化成功会看到如下内容：
 ``` shell
@@ -39,8 +34,8 @@ date: 2015-12-29 13:58:00
 
 <!-- more -->
 
-### 五、验证初始化后的状态
- > git status
+## 五、验证初始化后的状态
+`git status`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -57,8 +52,8 @@ date: 2015-12-29 13:58:00
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-### 六、添加文件或者目录到索引(index)
- > git add *
+## 六、添加文件或者目录到索引(index)
+`git add *`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -90,8 +85,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 #   .project
 ```
 
-### 七、提交索引内容到仓库(repository)
- > git commit -m "My first commit"
+## 七、提交索引内容到仓库(repository)
+`git commit -m "My first commit"`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -113,8 +108,8 @@ create mode 100755 bootstrap/js/holder.js
 create mode 100644 index.html
 ```
 
-### 八、提交索引内容到仓库(repository)
- > git status
+## 八、提交索引内容到仓库(repository)
+`git status`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -131,10 +126,10 @@ create mode 100644 index.html
 nothing added to commit but untracked files present (use "git add" to track) 
 ```
 
-### 九、创建git账户及远程代码仓库
+## 九、创建git账户及远程代码仓库
 
-### 十、连接本地仓库与远程仓库
- > git remote add origin git@git.oschina.net:yeshaoting/martinye-demo-spring-velocity.git
+## 十、连接本地仓库与远程仓库
+`git remote add origin git@git.oschina.net:yeshaoting/martinye-demo-spring-velocity.git`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -148,8 +143,8 @@ To https://github.com/your_name/your_repo.git
 Branch master set up to track remote branch master from origin.
 ```
 
-### 十一、推送本地仓库到远程仓库
- > git push -u origin master
+## 十一、推送本地仓库到远程仓库
+`git push -u origin master`
 
 应该能看到类似如下的信息：
 ``` shell
@@ -163,7 +158,7 @@ To git@git.oschina.net:yeshaoting/martinye-demo-spring-velocity.git
 分支 master 设置为跟踪来自 origin 的远程分支 master。
 ```
 
-#### 补充说明
+### 补充说明
 如若出现如下错误：
 ``` shell
 To git@git.oschina.net:yeshaoting/martinye-demo-spring-velocity.git
@@ -177,7 +172,7 @@ error: 无法推送一些引用到 'git@git.oschina.net:yeshaoting/martinye-demo
 
 说明，远程代码仓库已经存在部分代码，且未 pull 最新代码到本地仓库，出现冲突。
 此时，执行如下命令即可：
- > git pull origin master
+`git pull origin master`
 
 ``` shell
 来自 git.oschina.net:yeshaoting/martinye-demo-spring-velocity
@@ -190,5 +185,3 @@ Merge made by the 'recursive' strategy.
  create mode 100644 README.md
 ```
 
-
-[1]: https://www.texniq.de/en/web-engineering-i/create-local-git-repo-and-push-to-github
