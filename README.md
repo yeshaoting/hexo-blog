@@ -2,8 +2,6 @@
 ## 关于博客
 借助hexo搭建的博客，静态页面代码托管在github上。
 
-地址：http://yeshaoting.github.io
-
 
 ## 声明
 博客所有观点纯属个人理解，如有误导请指正。
