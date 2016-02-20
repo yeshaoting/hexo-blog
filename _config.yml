@@ -12,7 +12,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yeshaoting.github.io
+#url: http://yeshaoting.github.io
+url: http://yeshaoting.gitcafe.io
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -79,9 +80,12 @@ stylus:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:yeshaoting/yeshaoting.github.io.git
   branch: master
+- type: git
+  repo: git@gitcafe.com:yeshaoting/yeshaoting.git
+  branch: gitcafe-pages
 
 admin:
   username: yeshaoting
