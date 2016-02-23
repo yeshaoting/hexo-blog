@@ -9,6 +9,6 @@
 
 ## 联系我
  - 邮箱：[yeshaoting@163.com](mailto:yeshaoting@163.com)
- - 主页：http://yeshaoting.github.io
+ - 主页：http://yeshaoting.cn
  - 技术博客：http://jarg.iteye.com
  - 微博：[@悠然萧萧](http://weibo.com/jarg)
