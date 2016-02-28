@@ -3,6 +3,7 @@ categories:
 tags:
   - ubuntu
   - 应用软件
+  - 小记
 title: ubuntu装机软件
 date: 2015-12-29 13:58:00
 ---

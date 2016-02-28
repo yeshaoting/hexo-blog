@@ -1,7 +1,7 @@
 categories:
   - tool
 tags:
-  - 五笔
+  - 应用软件
 title: Linux安装极点五笔的方法
 date: 2015-12-29 13:58:00
 ---

@@ -335,7 +335,13 @@ SLAVE_PID=$(eval $SLAVE_PID_COMMAND)
 basename soft_install/jenkins-job-install/archive/jdk1.7.0_60.tar.gz .tar.gz => jdk1.7.0_60
 
 
-## 十五、其他命令
+## 十五、find命令
+
+### 1. 删除所有文件名包含Ulysses-Group的文件
+`find . -name "*Ulysses-Group*" -exec rm -rf {} \;`
+
+
+## 十六、其他命令
 
 ### 1. 磁盘格式转换为ntfs( 会格式化磁盘 )
 `convert X: /fs:ntfs`
@@ -356,4 +362,5 @@ finger [USERNAME]
 重定向到文件并打印到屏幕
 
 参见：[tee--重定向到文件并打印到屏幕](http://blog.csdn.net/love_gaohz/article/details/8100808)
+
 
