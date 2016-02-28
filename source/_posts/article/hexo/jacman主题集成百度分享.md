@@ -1,9 +1,9 @@
 title: jacman主题集成百度分享
 tags:
-  - 百度分享
+  - hexo
   - 分享代码
 categories:
-  - hexo
+  - 博客
 date: 2016-02-16 16:53:00
 ---
 
@@ -27,7 +27,7 @@ date: 2016-02-16 16:53:00
 jacman主题默认不支持百度分享，只需要如下简单几步工作即可集成：
 
 ### 1. 登录或注册百度
-登录[百度分离](http://share.baidu.com/)，完成登录或注册。
+登录[百度分享](http://share.baidu.com/)，完成登录或注册。
 
 ### 2. 主题配置
 修改主题配置文件themes/jacman/_config.yml，如下：

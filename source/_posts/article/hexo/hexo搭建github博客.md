@@ -1,13 +1,10 @@
 title: hexo搭建github博客
 tags:
   - hexo
-  - github
 categories:
-  - hexo
+  - 博客
 date: 2015-12-29 14:04:00
 ---
-
-[TOC]
 
 ## 一、创建Github Pages
 Github Pages为我们提供静态页面的托管。
@@ -206,4 +203,3 @@ hexo g == hexo generate
 hexo s == hexo server
 hexo d == hexo deploy
 ```
-

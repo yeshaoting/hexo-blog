@@ -1,7 +1,7 @@
 tags:
   - hexo
 categories:
-  - hexo
+  - 博客
 title: hexo使用进阶
 date: 2016-02-01 13:25:00
 ---

@@ -1,8 +1,8 @@
 title: High一下
 tags:
-  - 其他
-categories:
   - hexo
+categories:
+  - 博客
 date: 2016-02-16 18:06:00
 ---
 

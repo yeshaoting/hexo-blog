@@ -1,14 +1,12 @@
 categories:
-  - spring
+  - java
 tags:
   - spring
-  - spring整合实践
+  - 实践
   - velocity
 title: spring整合实践 - velocity
 date: 2015-12-29 13:58:00
 ---
-
-[TOC]
 
 此段内容说明如何整合spring与velocity。
 此文并不介绍如何使用velocity代替jsp作为页面渲染配置(参考：VelocityAndSpringStepByStep)，仅仅只是输出特定格式的html、xml或文本等内容的整合实践。

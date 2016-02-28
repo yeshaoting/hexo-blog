@@ -2,9 +2,8 @@ title: 升级mac bash到4.3版本
 tags:
   - mac
   - shell
-  - bash
 categories:
-  - shell
+  - mac
 date: 2016-01-29 18:52:00
 ---
 

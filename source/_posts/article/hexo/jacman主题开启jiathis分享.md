@@ -1,9 +1,9 @@
 title: jacman主题开启jiathis分享
 tags:
-  - jiathis
+  - hexo
   - 分享代码
 categories:
-  - hexo
+  - 博客
 date: 2016-02-16 15:45:00
 ---
 

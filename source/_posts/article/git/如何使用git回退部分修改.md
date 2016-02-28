@@ -1,7 +1,7 @@
 categories:
-  - git
+  - 版本控制
 tags:
-  - 回滚
+  - git
 title: 回滚git代码版本
 date: 2015-12-29 13:58:00
 ---

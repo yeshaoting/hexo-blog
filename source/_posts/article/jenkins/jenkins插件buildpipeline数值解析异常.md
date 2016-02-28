@@ -1,8 +1,8 @@
 categories:
-  - jenkins
+  - 持续集成
 tags:
+  - issue
   - jenkins
-  - 问题
 title: jenkins build-pipeline-plugin 数值解析异常
 date: 2015-12-29 13:58:00
 ---

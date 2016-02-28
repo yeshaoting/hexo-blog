@@ -1,8 +1,8 @@
 title: git多仓库配置
 tags:
-  - 多仓库
-categories:
   - git
+categories:
+  - 版本控制
 date: 2016-02-18 12:32:00
 ---
 

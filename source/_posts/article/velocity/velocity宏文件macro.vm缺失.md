@@ -1,13 +1,10 @@
 tags:
   - velocity
-  - 问题
-title: 找不到自定义的velocity宏资源文件macro.vm
+title: velocity宏文件macro.vm缺失
 categories:
-  - velocity
+  - java
 date: 2015-12-29 13:58:00
 ---
-
-[TOC]
 
 异常描述：VelocityException: Velocimacro : Error using VM library : /WEB-INF/vm/macro.vm
 问题原因：路径配置错误。

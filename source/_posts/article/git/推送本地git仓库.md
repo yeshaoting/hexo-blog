@@ -1,7 +1,7 @@
 categories:
-  - git
+  - 版本控制
 tags:
-  - 代码推送
+  - git
 title: 推送本地git仓库
 date: 2015-12-29 13:58:00
 ---

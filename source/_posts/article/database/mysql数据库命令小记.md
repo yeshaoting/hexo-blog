@@ -1,5 +1,5 @@
 categories:
-  - database
+  - 数据库
 tags:
   - mysql
   - 小记

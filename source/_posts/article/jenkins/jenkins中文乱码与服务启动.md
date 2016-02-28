@@ -1,9 +1,8 @@
 categories:
-  - jenkins
+  - 持续集成
 tags:
   - jenkins
-  - 持续集成
-  - 问题
+  - issue
 title: jenkins中文乱码与服务启动
 date: 2015-12-29 13:58:00
 ---

@@ -1,26 +1,20 @@
+title: tomcat访问系统文件及文件夹
+tags:
+  - tomcat
 categories:
   - java
-  - server
-tags:
-  - java
-  - 服务器
-  - 集锦
-title: 服务器问题集锦
-date: 2015-12-29 13:58:00
+date: 2016-02-28 16:24:00
 ---
 
-[TOC]
-
-
-## tomcat访问系统文件及文件夹
-
-### 1. 进入tomcat目录
+## 一、进入tomcat目录
 > cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37
 
-### 2. 修改web.xml配置
+
+## 二、修改web.xml配置
 > vim conf/web.xml
 
-### 3. 修改listings参数
+
+## 三、修改listings参数
 找到名为 **default** 的servlet配置。
 ``` xml
     <servlet>
@@ -48,8 +42,6 @@ listings参数含义说明如下：
   <!--                       significant proportions of server resources.   -->
 ```
 
-**参考文档**：
+## 四、参考文档
 http://blog.csdn.net/guopengzhang/article/details/5948644
 http://xueli.blog.51cto.com/3325186/1585859
-
-<!-- more -->

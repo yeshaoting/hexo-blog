@@ -1,43 +1,26 @@
-categories:
-  - ide
+title: 'Syntax error- "(" unexpected'
 tags:
-  - java
-  - 开发工具
-  - 集锦
-title: 开发工具问题集锦
-date: 2015-12-29 13:58:00
+  - issue
+categories:
+  - shell
+date: 2016-02-28 16:56:00
 ---
 
-
-[TOC]
-
-
-## ssh_exchange_identification: Connection closed by remote host
-用ssh -v去连有问题的服务器，这时会有比较详细的调试信息在屏幕上输出，可以帮助判断是哪一步出了问题。
-
-**参考文档**：
-http://www.zhihu.com/question/20023544
-
-
-## Syntax error: "(" unexpected
-
-### 问题描述
+## 一、问题描述
 假如我们在shell文件定义了一个数组pid=(0 0 0 0)，运行文件后则会收到报错：Syntax error: "(" unexpected。
 
-### 原因
+
+## 二、原因
 主要是因为Linux系统shell版本不兼容引起的。 shell的版本有sh,ksh,csh, bash，dash……等等。用命令ls -al /bin/sh可以得到我们当前所用的Linux系统的shell属于何版本。
 
-### 解决
+
+## 三、解决
 通过将当前通过以下方式可以使 shell 切换回 bash：
- $sudo dpkg-reconfigure dash
+`sudo dpkg-reconfigure dash`
 然后选择 no 或者“否 ”，并确认。这样做将重新配置 dash，并使其不作为默认的 shell 工具。
 
-### 参考文档
+
+## 四、参考文档
 [Shell编程笔记——Syntax error: "(" unexpected](http://blog.csdn.net/breeze5428/article/details/27353583)
 http://ask.chinaunix.net/question/974
 http://bbs.csdn.net/topics/390132876
-
-<!-- more -->
-
-
-

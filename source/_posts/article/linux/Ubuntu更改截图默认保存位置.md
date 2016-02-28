@@ -1,7 +1,6 @@
 categories:
   - linux
 tags:
-  - linux
   - ubuntu
 title: Ubuntu更改截图默认保存位置
 date: 2015-12-29 13:58:00
@@ -18,4 +17,5 @@ date: 2015-12-29 13:58:00
 ## 命令行
 > gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/yeshaoting/Pictures/screenshot/"
 
-参考文档：[Default save directory for gnome-screenshot?](http://askubuntu.com/a/134469)
+## 参考文档
+[Default save directory for gnome-screenshot?](http://askubuntu.com/a/134469)

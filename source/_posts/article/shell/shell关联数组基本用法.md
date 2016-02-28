@@ -1,6 +1,6 @@
 title: shell关联数组基本用法
 tags:
-  - bash
+  - 实践
 categories:
   - shell
 date: 2016-02-01 12:35:00

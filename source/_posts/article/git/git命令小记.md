@@ -1,6 +1,7 @@
 categories:
-  - git
+  - 版本控制
 tags:
+  - git
   - 小记
   - 命令
 title: git命令小记

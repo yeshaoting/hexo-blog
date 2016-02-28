@@ -1,7 +1,6 @@
 title: 了解IFS
 tags:
-  - bash
-  - IFS
+  - 实践
 categories:
   - shell
 date: 2016-02-01 17:37:00

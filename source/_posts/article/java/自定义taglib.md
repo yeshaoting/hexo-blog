@@ -1,12 +1,11 @@
 categories:
-  - web
+  - java
 tags:
   - taglib
 title: 自定义taglib
 date: 2015-12-29 15:59:00
 ---
 
-[TOC]
 
 ## 一、扩展函数库
 在taglib函数类中添加需要的函数randomElement、join等。

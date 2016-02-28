@@ -1,8 +1,9 @@
 categories:
-  - git
+  - 版本控制
 title: git拉取submodule
 tags:
   - submodule
+  - git
 date: 2015-12-29 13:58:00
 ---
 

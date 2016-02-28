@@ -1,14 +1,11 @@
 categories:
   - linux
 tags:
-  - linux
   - 命令
   - 小记
 title: Linux命令小记
 date: 2016-01-15 18:02:00
 ---
-
-[TOC]
 
 ## 一、awk命令
 
