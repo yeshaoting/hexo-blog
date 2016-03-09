@@ -86,6 +86,9 @@ deploy:
 - type: git
   repo: git@gitcafe.com:yeshaoting/yeshaoting.git
   branch: gitcafe-pages
+- type: git
+  repo: git@git.coding.net:yeshaoting/yeshaoting.git
+  branch: master
 
 admin:
   username: yeshaoting
