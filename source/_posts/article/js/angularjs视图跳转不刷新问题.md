@@ -6,7 +6,7 @@ categories:
 date: 2016-03-09 15:56:00
 ---
 
-在实际工作过程中，发现通过 $state.go("stage2") 让视图跳转到stage2，但视图内容并不刷新。
+在实际工作过程中，发现通过 `$state.go("stage2")` 让视图跳转到stage2，但视图内容并不刷新。
 
 ## 一、问题解决
 
@@ -33,12 +33,12 @@ var changeLocation = function(url, forceReload) {
 
 ### 2. 方法二
 通过自带的参数reload，要求视图跳转时强制刷新视图内容。
-```javascript
+``` javascript
 $state.go("stage2", {}, {"reload": true});
 ```
 
 或者视图跳转完后，通过reloa()方法刷新视图。
-```javascript
+``` javascript
 $state.go("stage2");
 $state.reload("stage2");
 ```
