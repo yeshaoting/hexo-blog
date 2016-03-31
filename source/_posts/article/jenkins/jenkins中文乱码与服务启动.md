@@ -7,6 +7,8 @@ title: jenkins中文乱码与服务启动
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/jenkins.png" class="img-logo img-center" />
+
 
 ## 问题描述
 项目构建**最新修改记录**中文乱码。

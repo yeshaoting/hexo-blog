@@ -7,6 +7,9 @@ title: jenkins任务等待下一次可用执行
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/jenkins.png" class="img-logo img-center" />
+
+
 英文：pending-waiting for next available executor
 
 ## 问题分析

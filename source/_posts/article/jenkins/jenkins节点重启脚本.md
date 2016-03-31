@@ -6,6 +6,8 @@ title: jenkins节点重启脚本
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/jenkins.png" class="img-logo img-center" />
+
 
 ## 远程重启jenkins节点脚本
 ``` shell

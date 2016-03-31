@@ -7,7 +7,8 @@ title: jenkins build-pipeline-plugin 数值解析异常
 date: 2015-12-29 13:58:00
 ---
 
-[TOC]
+<img src="/asserts/images/logo/jenkins.png" class="img-logo img-center" />
+
 
 jenkins version: 1.574
 
