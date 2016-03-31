@@ -9,7 +9,7 @@ title: spring整合实践 - velocity
 date: 2015-12-29 13:58:00
 ---
 
-<img src="/asserts/images/spring.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/spring.png" class="img-logo img-center" />
 
 
 此段内容说明如何整合spring与velocity。

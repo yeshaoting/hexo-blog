@@ -7,7 +7,8 @@ categories:
 date: 2016-02-28 13:57:00
 ---
 
-<img src="/asserts/images/spring.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/spring.png" class="img-logo img-center" />
+
 
 ## 一、重定向
 ``` xml

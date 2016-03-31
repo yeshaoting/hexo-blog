@@ -9,7 +9,8 @@ title: spring mvc service实例化二次问题
 date: 2015-12-29 13:58:00
 ---
 
-<img src="/asserts/images/spring.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/spring.png" class="img-logo img-center" />
+
 
 描述：错误地spring容器配置，导致spring实例service二次。
 

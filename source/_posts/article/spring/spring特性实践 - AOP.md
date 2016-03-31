@@ -9,7 +9,8 @@ title: spring特性实践 - AOP
 date: 2015-12-29 13:58:00
 ---
 
-<img src="/asserts/images/spring.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/spring.png" class="img-logo img-center" />
+
 
 此段内容说明如何使用spring aop，并通过一个函数耗时统计切面demo来讲述使用具体步骤。
 
