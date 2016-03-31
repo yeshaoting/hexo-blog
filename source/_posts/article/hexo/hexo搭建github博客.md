@@ -6,6 +6,9 @@ categories:
 date: 2015-12-29 14:04:00
 ---
 
+<img src="/asserts/images/logo/hexo.png" class="img-logo img-center" />
+
+
 ## 一、创建Github Pages
 Github Pages为我们提供静态页面的托管。
 参见：[一步步在GitHub上创建博客主页(2)](http://www.pchou.info/web-build/2013/01/05/build-github-blog-page-02.html)

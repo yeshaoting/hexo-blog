@@ -6,6 +6,8 @@ title: hexo使用进阶
 date: 2016-02-01 13:25:00
 ---
 
+<img src="/asserts/images/logo/hexo.png" class="img-logo img-center" />
+
 
 ## 一、后端管理插件hexo-admin
 插件可以直接在网页端创建、编辑markdown文章内容，并将内容发布到_posts里。

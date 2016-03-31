@@ -7,7 +7,7 @@ categories:
 date: 2016-03-11 18:33:00
 ---
 
-<img src="/asserts/images/java.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/java.png" class="img-logo img-center" />
 
 
 ## 一、查看javadoc帮助文档

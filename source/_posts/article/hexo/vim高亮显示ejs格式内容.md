@@ -7,6 +7,9 @@ categories:
 date: 2016-02-16 11:51:00
 ---
 
+<img src="/asserts/images/logo/hexo.png" class="img-logo img-center" />
+
+
 ## 一、简介
 [官方介绍](http://www.embeddedjs.com/)如下：
 > EJS is a client-side templating language that was originally part of JavaScriptMVC, which has now been replaced by DoneJS.

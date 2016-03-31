@@ -7,7 +7,7 @@ categories:
 date: 2016-03-09 15:39:00
 ---
 
-<img src="/asserts/images/maven.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/maven.png" class="img-logo img-center" />
 
 
 ## 一、资源结构

@@ -7,7 +7,7 @@ title: 自定义taglib
 date: 2015-12-29 15:59:00
 ---
 
-<img src="/asserts/images/javaee.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/javaee.png" class="img-logo img-center" />
 
 
 ## 一、扩展函数库
