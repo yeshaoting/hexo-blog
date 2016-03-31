@@ -6,6 +6,8 @@ categories:
 date: 2016-03-09 15:56:00
 ---
 
+<img src="/asserts/images/angularjs.png" class="img-logo img-center" />
+
 在实际工作过程中，发现通过 `$state.go("stage2")` 让视图跳转到stage2，但视图内容并不刷新。
 
 ## 一、问题解决

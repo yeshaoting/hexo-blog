@@ -7,6 +7,9 @@ categories:
 date: 2016-02-28 16:24:00
 ---
 
+<img src="/asserts/images/javaee.png" class="img-logo img-center" />
+
+
 ## 取整
 el表达式除法结果为浮点型，无法通过运算直接得到整数值。
 通过formatNumber保留整除后0位有效小数即可。

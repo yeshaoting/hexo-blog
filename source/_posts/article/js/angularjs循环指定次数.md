@@ -6,6 +6,9 @@ categories:
 date: 2016-03-13 10:16:00
 ---
 
+<img src="/asserts/images/angularjs.png" class="img-logo img-center" />
+
+
 ## 一、js代码
 ``` javascript
 $scope.range = function(n) {

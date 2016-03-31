@@ -7,6 +7,10 @@ categories:
   - 后端开发
 date: 2016-02-28 16:57:00
 ---
+
+<img src="/asserts/images/spring.png" class="img-logo img-center" />
+
+
 ## 问题说明
 使用@ResponseBody注解的spring接口返回的JSON格式结果有时会返回包含值为null的字段，但是与前端联调可能并不希望包含这样的字段。
 因此，需要过滤掉这类字段。

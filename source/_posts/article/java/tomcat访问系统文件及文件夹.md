@@ -7,6 +7,9 @@ categories:
 date: 2016-02-28 16:24:00
 ---
 
+<img src="/asserts/images/tomcat.png" class="img-logo img-center" />
+
+
 ## 一、进入tomcat目录
 > cd /home/yeshaoting/java/server/tomcat/apache-tomcat-6.0.37
 

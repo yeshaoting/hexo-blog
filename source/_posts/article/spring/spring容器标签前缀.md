@@ -8,6 +8,8 @@ title: spring容器标签前缀
 date: 2016-02-28 13:53:00
 ---
 
+<img src="/asserts/images/spring.png" class="img-logo img-center" />
+
 一般地，spring容器标签bean元数据格式为`<bean></bean>`。但是，奇怪的是有的时候必须使用`<beans:bean></beans:bean>`，否则会报错。
 
 ## 一、为什么会这样？

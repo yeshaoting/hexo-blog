@@ -7,6 +7,8 @@ categories:
 date: 2016-03-11 18:33:00
 ---
 
+<img src="/asserts/images/java.png" class="img-logo img-center" />
+
 
 ## 一、查看javadoc帮助文档
 
@@ -79,6 +81,7 @@ javadoc: 错误 - 无效的标记: --help
   -docencoding <name>              指定输出的字符编码
 ```
 
+<!-- more -->
 
 ## 二、命令举例
 

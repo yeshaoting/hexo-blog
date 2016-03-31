@@ -6,6 +6,10 @@ categories:
   - 后端开发
 date: 2016-02-28 16:24:00
 ---
+
+<img src="/asserts/images/javaee.png" class="img-logo img-center" />
+
+
 el表达式中，默认数值类型为Long型。
 
 ## 一、问题描述
