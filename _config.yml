@@ -84,9 +84,9 @@ deploy:
 - type: git
   repo: git@github.com:yeshaoting/yeshaoting.github.io.git
   branch: master
-- type: git
-  repo: https://gitcafe.com/yeshaoting/yeshaoting.git
-  branch: gitcafe-pages
+#- type: git
+#  repo: https://gitcafe.com/yeshaoting/yeshaoting.git
+#  branch: gitcafe-pages
 - type: git
   repo: git@git.coding.net:yeshaoting/yeshaoting.git
   branch: master

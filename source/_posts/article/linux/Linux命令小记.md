@@ -1,8 +1,9 @@
 categories:
-  - linux
+  - 工具软件
 tags:
   - 命令
   - 小记
+  - ubuntu
 title: Linux命令小记
 date: 2016-01-15 18:02:00
 ---

@@ -1,8 +1,8 @@
 categories:
-  - linux
+  - 工具软件
 tags:
   - nginx
-  - 开发软件
+  - ubuntu
 title: linux安装nginx
 date: 2015-12-29 13:58:00
 ---

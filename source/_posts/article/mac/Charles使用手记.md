@@ -1,8 +1,9 @@
 title: Charles使用手记
 tags:
   - charles
+  - mac
 categories:
-  - tool
+  - 工具软件
 date: 2016-02-14 18:55:00
 ---
 

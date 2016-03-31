@@ -1,5 +1,5 @@
 categories:
-  - linux
+  - 系统配置
 tags:
   - ubuntu
 title: Ubuntu更改截图默认保存位置

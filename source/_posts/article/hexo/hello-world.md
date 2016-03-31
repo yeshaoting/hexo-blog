@@ -2,7 +2,7 @@ title: Hello World
 tags:
   - hexo
 categories:
-  - 博客
+  - 博客搭建
 date: 2015-12-29 14:06:00
 ---
 

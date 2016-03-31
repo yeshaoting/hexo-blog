@@ -1,8 +1,9 @@
 title: shell关联数组基本用法
 tags:
   - 实践
-categories:
   - shell
+categories:
+  - 脚本
 date: 2016-02-01 12:35:00
 ---
 # shell关联数组基本用法

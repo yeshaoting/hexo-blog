@@ -1,8 +1,9 @@
 title: vim高亮显示ejs格式内容
 tags:
+  - hexo
   - vim
 categories:
-  - 博客
+  - 博客搭建
 date: 2016-02-16 11:51:00
 ---
 

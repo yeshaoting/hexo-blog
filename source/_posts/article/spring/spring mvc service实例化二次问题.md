@@ -1,7 +1,8 @@
 categories:
-  - java
+  - 后端开发
 tags:
   - spring
+  - java
   - mvc
   - issue
 title: spring mvc service实例化二次问题

@@ -1,8 +1,9 @@
 tags:
   - spring
   - issue
-categories:
   - java
+categories:
+  - 后端开发
 title: spring容器标签前缀
 date: 2016-02-28 13:53:00
 ---

@@ -1,7 +1,8 @@
 categories:
-  - java
+  - 后端开发
 tags:
   - aop
+  - java
   - spring
   - 实践
 title: spring特性实践 - AOP

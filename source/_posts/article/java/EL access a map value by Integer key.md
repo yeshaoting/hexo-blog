@@ -1,8 +1,9 @@
 title: EL access a map value by Integer key
 tags:
   - el
-categories:
   - java
+categories:
+  - 后端开发
 date: 2016-02-28 16:24:00
 ---
 el表达式中，默认数值类型为Long型。

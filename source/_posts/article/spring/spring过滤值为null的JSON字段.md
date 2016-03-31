@@ -1,9 +1,10 @@
 title: "\bspring过滤\b\b值为null的JSON\b\b字段"
 tags:
   - issue
+  - java
   - spring
 categories:
-  - java
+  - 后端开发
 date: 2016-02-28 16:57:00
 ---
 ## 问题说明

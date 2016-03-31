@@ -1,8 +1,9 @@
 categories:
-  - cache
+  - 数据存储
 title: redis单机多实例部署
 tags:
   - redis
+  - cache
 date: 2015-12-29 13:58:00
 ---
 

@@ -1,5 +1,5 @@
 categories:
-  - tool
+  - 工具软件
 tags:
   - ubuntu
   - fiddler

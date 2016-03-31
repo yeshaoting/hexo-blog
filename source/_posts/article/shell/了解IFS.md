@@ -1,8 +1,9 @@
 title: 了解IFS
 tags:
   - 实践
-categories:
   - shell
+categories:
+  - 脚本
 date: 2016-02-01 17:37:00
 ---
 

@@ -1,5 +1,5 @@
 categories:
-  - 数据库
+  - 数据存储
 tags:
   - mysql
   - 小记
@@ -9,6 +9,10 @@ date: 2015-12-29 13:58:00
 ---
 
 [TOC]
+
+## 查看innodb引擎状态
+可用于查看死锁情况：
+show engine innodb status;
 
 ## 查看锁情况
 表锁：show global status like 'table_locks%';

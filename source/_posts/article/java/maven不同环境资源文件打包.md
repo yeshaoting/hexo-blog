@@ -1,8 +1,9 @@
 title: maven不同环境资源文件打包
 tags:
   - maven
-categories:
   - java
+categories:
+  - 后端开发
 date: 2016-03-09 15:39:00
 ---
 

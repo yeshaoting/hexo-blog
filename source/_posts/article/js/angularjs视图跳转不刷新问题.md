@@ -2,7 +2,7 @@ title: angularjs视图跳转不刷新问题
 tags:
   - angularjs
 categories:
-  - 前端技术
+  - 前端设计
 date: 2016-03-09 15:56:00
 ---
 

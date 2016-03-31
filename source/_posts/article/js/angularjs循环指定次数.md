@@ -2,7 +2,7 @@ title: angularjs循环指定次数
 tags:
   - angularjs
 categories:
-  - 前端技术
+  - 前端设计
 date: 2016-03-13 10:16:00
 ---
 

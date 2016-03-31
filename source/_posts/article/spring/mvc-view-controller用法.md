@@ -1,8 +1,9 @@
 title: mvc-view-controller用法
 tags:
   - spring
-categories:
   - java
+categories:
+  - 后端开发
 date: 2016-02-28 13:57:00
 ---
 

@@ -3,7 +3,7 @@ tags:
   - ssh
   - issue
 categories:
-  - tool
+  - 工具软件
 date: 2016-02-28 16:23:00
 ---
 ## 异常内容

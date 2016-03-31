@@ -1,13 +1,11 @@
 title: Mac装机软件
 tags:
   - 小记
-  - 应用软件
-categories:
   - mac
+categories:
+  - 工具软件
 date: 2015-12-29 17:56:00
 ---
-[TOC]
-
 
 ## 一、应用软件
 

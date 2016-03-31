@@ -3,7 +3,7 @@ tags:
   - mac
   - shell
 categories:
-  - mac
+  - 工具软件
 date: 2016-01-29 18:52:00
 ---
 

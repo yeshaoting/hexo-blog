@@ -2,7 +2,7 @@ title: High一下
 tags:
   - hexo
 categories:
-  - 博客
+  - 博客搭建
 date: 2016-02-16 18:06:00
 ---
 

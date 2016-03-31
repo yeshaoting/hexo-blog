@@ -1,7 +1,8 @@
 categories:
-  - java
+  - 后端开发
 tags:
   - spring
+  - java
   - 实践
   - velocity
 title: spring整合实践 - velocity
