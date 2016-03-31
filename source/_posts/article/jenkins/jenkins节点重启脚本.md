@@ -10,7 +10,7 @@ date: 2015-12-29 13:58:00
 
 
 ## 远程重启jenkins节点脚本
-``` shell
+``` bash
 NODE_CONFIG=nodes.ini
 JENKINS_CLIENT_COMMAND=/opt/work/local/jenkins/jenkins-client/bin/client.sh
 
@@ -44,7 +44,7 @@ start_nodes
 ## jenkins slave脚本
 jenkins slave重启脚本
 
-``` shell
+``` bash
 
 
 function file_source() {
@@ -172,6 +172,7 @@ for (var i=0;i<links.length;i++)
 	console.log(links[i].innerText);
 }
 ```
+
 ``` ini
 10.10.1.11
 10.10.1.12
