@@ -73,3 +73,24 @@ ${#arr[*]}
 在分类里会生成四个分类linux(categories/linux), shell(categories/linux/shell), shell(categories/shell), bash(categories/shell/bash)。
 
 由此可见，对于一篇文章最好只设置一个分类，设置多个标签。
+
+
+## 五、文章更新时间显示
+修改只对于jacman主题而言。
+
+### 1. 添加文章更新时间显示位置
+文件：layout/_partial/post/header.ejs
+在article-time块内添加如下内容：
+``` xml
+    <time postupdated="<%= date_xml(item.updated) %>" itemprop="dateModified"> <%= __('dateModified') %> <%= item.updated.format(config.date_format) %></time>
+```
+
+### 2. 添加支持
+文件：languages/zh-CN.yml
+在最后添加如下内容：
+> dateModified: 更新于
+
+参见：
+ - [hexo国际化（i18n）](https://hexo.io/zh-cn/docs/internationalization.html)
+ - [hexo之jacman主题修改记录](https://blog.mcosx.cn/post/hexo-jacman/)
+
