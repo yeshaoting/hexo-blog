@@ -7,6 +7,9 @@ categories:
 date: 2016-01-29 18:52:00
 ---
 
+<img src="/asserts/images/logo/mac.png" class="img-logo img-center" />
+
+
 # 升级mac bash到4.3版本
 
 

@@ -6,6 +6,9 @@ title: Ubuntu更改截图默认保存位置
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/ubuntu.png" class="img-logo img-center" />
+
+
 ## 图形界面
 
 安装dconf-editor

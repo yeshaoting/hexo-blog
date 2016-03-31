@@ -6,6 +6,9 @@ tags:
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/git.png" class="img-logo img-center" />
+
+
 ## 一、执行步骤
 
 ### 1. 添加子模块配置

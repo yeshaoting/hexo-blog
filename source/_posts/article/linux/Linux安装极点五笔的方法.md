@@ -7,6 +7,8 @@ title: Linux安装极点五笔的方法
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/ubuntu.png" class="img-logo img-center" />
+
 
 ## 一、下载附件文件vissible-ibus.tar.gz
 免费下载地址在http://linux.linuxidc.com/

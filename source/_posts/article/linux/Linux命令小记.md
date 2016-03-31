@@ -8,6 +8,9 @@ title: Linux命令小记
 date: 2016-01-15 18:02:00
 ---
 
+<img src="/asserts/images/logo/ubuntu.png" class="img-logo img-center" />
+
+
 ## 一、awk命令
 
 ### 1. 删除重复的、非连续的行

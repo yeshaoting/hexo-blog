@@ -6,6 +6,9 @@ categories:
 date: 2016-02-18 12:32:00
 ---
 
+<img src="/asserts/images/logo/git.png" class="img-logo img-center" />
+
+
 
 ## 一、密钥选择
 默认情况下，git会使用id_rsa与id_rsa.pub的密钥对，与git代码服务器进行通信。但是，对于同一台机器需要与不同的git代码服务器进行通信的需求，则需要进行特别指定。

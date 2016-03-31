@@ -8,6 +8,8 @@ title: git命令小记
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/git.png" class="img-logo img-center" />
+
 
 ## 1. git日志格式化
 ``` shell

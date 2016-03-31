@@ -8,6 +8,9 @@ categories:
 date: 2015-12-29 17:56:00
 ---
 
+<img src="/asserts/images/logo/mac.png" class="img-logo img-center" />
+
+
 ## 一、应用软件
 
 ### 1. 安装腾讯电脑管家

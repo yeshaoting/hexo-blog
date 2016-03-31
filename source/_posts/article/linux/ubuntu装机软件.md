@@ -8,6 +8,9 @@ title: ubuntu装机软件
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/ubuntu.png" class="img-logo img-center" />
+
+
 修改软件源为163的源。
 
 

@@ -6,6 +6,9 @@ title: 回滚git代码版本
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/git.png" class="img-logo img-center" />
+
+
 **参考**：[Git的撤消操作 - 重置, 签出 和 撤消](http://gitbook.liuhui998.com/4_9.html)
 
 错提交代码，或者某个版本代码之后想要回滚回来的话，就会遇到需要回滚代码版本的问题。

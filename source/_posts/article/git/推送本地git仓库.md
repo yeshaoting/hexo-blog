@@ -6,6 +6,9 @@ title: 推送本地git仓库
 date: 2015-12-29 13:58:00
 ---
 
+<img src="/asserts/images/logo/git.png" class="img-logo img-center" />
+
+
 本文参考：[Create Local Git Repo & Push to GitHub](https://www.texniq.de/en/web-engineering-i/create-local-git-repo-and-push-to-github)
 
 
