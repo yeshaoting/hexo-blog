@@ -6,7 +6,8 @@ categories:
 date: 2016-02-16 18:06:00
 ---
 
-<img src="/asserts/images/logo/hexo.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/blog.png" class="img-logo img-center" />
+
 
 ## 一、前言
 本文内容基于wuchong的Jacman主题。

@@ -7,6 +7,9 @@ categories:
 date: 2016-02-01 17:37:00
 ---
 
+<img src="/asserts/images/logo/bash.png" class="img-logo img-center" />
+
+
 ## 一、介绍
 内部字段分隔符IFS用作文本分隔符，用于将分隔文本成一个个词。默认的分隔符为空格、制表符以及换行。
 

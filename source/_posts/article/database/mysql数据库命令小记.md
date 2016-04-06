@@ -8,7 +8,8 @@ title: mysql数据库命令小记
 date: 2015-12-29 13:58:00
 ---
 
-[TOC]
+<img src="/asserts/images/logo/mysql.png" class="img-logo img-center" />
+
 
 ## 查看innodb引擎状态
 可用于查看死锁情况：

@@ -6,9 +6,9 @@ categories:
   - 脚本
 date: 2016-02-01 12:35:00
 ---
-# shell关联数组基本用法
 
-[TOC]
+<img src="/asserts/images/logo/bash.png" class="img-logo img-center" />
+
 
 **注**：bash自版本4后才开始支持关联数组，之前的版本可以考虑通过二维数组来代替。
 

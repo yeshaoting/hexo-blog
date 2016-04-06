@@ -1,6 +1,7 @@
 title: 打造个人专属Sublime Text 3
 tags:
   - sublime
+  - mac
 categories:
   - 工具软件
 date: 2016-01-25 14:28:00

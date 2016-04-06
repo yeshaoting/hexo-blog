@@ -7,6 +7,9 @@ categories:
 date: 2016-02-28 16:56:00
 ---
 
+<img src="/asserts/images/logo/bash.png" class="img-logo img-center" />
+
+
 ## 一、问题描述
 假如我们在shell文件定义了一个数组pid=(0 0 0 0)，运行文件后则会收到报错：Syntax error: "(" unexpected。
 
