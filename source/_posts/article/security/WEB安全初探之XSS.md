@@ -6,6 +6,9 @@ categories:
 date: 2016-03-09 15:48:00
 ---
 
+<img src="/asserts/images/logo/xss.png" class="img-logo img-center" />
+
+
 XSS 全称(Cross Site Scripting) 跨站脚本攻击，是Web程序中最常见的漏洞。指攻击者在网页中嵌入客户端脚本(例如JavaScript), 当用户浏览此网页时，脚本就会在用户的浏览器上执行，从而达到攻击者的目的。比如获取用户的Cookie，导航到恶意网站,携带木马等。
 
 ## 0x01 XSS攻击的分类
