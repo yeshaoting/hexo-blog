@@ -394,15 +394,15 @@ Tips：你猜到他们猜不到你猜得到他们猜不到你猜得到
 ### 4. 补充知识：签名规则
 
 #### 微信开放平台
-http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421135319&token=&lang=zh_CN
+参见：[微信签名规则](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421135319&token=&lang=zh_CN)
 ![关卡8-微信签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_31.png)
 
 #### 腾讯开放平台
-http://wiki.open.qq.com/wiki/%E8%85%BE%E8%AE%AF%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E7%AD%BE%E5%90%8D%E5%8F%82%E6%95%B0sig%E7%9A%84%E8%AF%B4%E6%98%8E
+参见：[腾讯签名规则](http://wiki.open.qq.com/wiki/%E8%85%BE%E8%AE%AF%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E7%AD%BE%E5%90%8D%E5%8F%82%E6%95%B0sig%E7%9A%84%E8%AF%B4%E6%98%8E)
 ![关卡8-腾讯签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_33.png)
 
 #### 淘宝开放平台
-http://open.taobao.com/doc2/detail.htm?articleId=101617&docType=1&treeId=1#s5
+参见：[淘宝签名规则](http://open.taobao.com/doc2/detail.htm?articleId=101617&docType=1&treeId=1#s5)
 ![关卡8-淘宝签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_34.png)
 
 ### 5. 小结
