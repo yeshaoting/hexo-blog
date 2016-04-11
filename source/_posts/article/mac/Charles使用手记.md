@@ -20,13 +20,13 @@ date: 2016-02-14 18:55:00
 
 ## 二、设置Wifi热点
 1. 在“系统偏好设置”中找到共享，并打开，如下图所示：
-![共享](http://images.macx.cn/forum/201212/13/234626efeiiiee0ie0de1d.png)
+![共享](/asserts/images/article/charles使用手记/234626efeiiiee0ie0de1d.png)
 
 2. 设置wifi
-![设置wifi](http://images.macx.cn/forum/201212/13/234626dfzl5ddirvab0wlf.png)
+![设置wifi](/asserts/images/article/charles使用手记/234626dfzl5ddirvab0wlf.png)
 
 3. 设置互联网共享
-![互联网共享](http://images.macx.cn/forum/201212/13/234626zltkgqegkdk9egk9.png)
+![互联网共享](/asserts/images/article/charles使用手记/234626zltkgqegkdk9egk9.png)
 
 参见：[将你的Mac设置为共享的Wifi热点](http://www.macx.cn/thread-2076838-1-1.html)
 
@@ -37,27 +37,27 @@ date: 2016-02-14 18:55:00
 ## 三、代理手机
 1. 查看代理ip地址
 当前IP地址为192.168.155.43，如下图所示：
-![代理ip](http://7xkl4i.com1.z0.glb.clouddn.com/charles-proxy-local-ip.png)
+![代理ip](/asserts/images/article/charles使用手记/charles-proxy-local-ip.png)
 
 2. 打开charles http代理端口
 打开charles http代理端口，默认端口为8888.
-![打开charles http代理端口](http://7xkl4i.com1.z0.glb.clouddn.com/charles-proxy-http-setting.png)
+![打开charles http代理端口](/asserts/images/article/charles使用手记/charles-proxy-http-setting.png)
 
 3. 手机代理配置
-![手机代理配置](http://7xkl4i.com1.z0.glb.clouddn.com/charles-proxy-phone.jpg)
+![手机代理配置](/asserts/images/article/charles使用手记/charles-proxy-phone.jpg)
 
 4. 允许手机访问
-![允许手机访问](http://7xkl4i.com1.z0.glb.clouddn.com/charles-proxy-trust-dialog.png)
+![允许手机访问](/asserts/images/article/charles使用手记/charles-proxy-trust-dialog.png)
 
 
 ## 四、抓包
 打开抓包开关：
-![开始http抓包](http://7xkl4i.com1.z0.glb.clouddn.com/charles-proxy-http-switch.png)
+![开始http抓包](/asserts/images/article/charles使用手记/charles-proxy-http-switch.png)
 
-![charles抓取界面](http://cdn.infoqstatic.com/statics_s1_20160128-0241u2/resource/articles/network-packet-analysis-tool-charles/zh/resources/1009004.jpg)
+![charles抓取界面](/asserts/images/article/charles使用手记/1009004.jpg)
 
 抓取界面如下图所示：
-![数据捕获](http://img.blog.csdn.net/20141130195559531?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlhbmd3ZWkwOTEwNDEwMDAz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![数据捕获](/asserts/images/article/charles使用手记/20141130195559531.png)
 
 
 ## 五、注意事项
