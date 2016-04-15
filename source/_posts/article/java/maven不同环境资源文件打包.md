@@ -46,6 +46,9 @@ src/main/resources/
 生产环境使用：src/main/resources/prod 目录下的这二个文件。
 
 
+<!-- more -->
+
+
 ## 三、解决方案
 借助maven-resources-plugin插件，在pom.xml指定配置。
 打包时，通过 mvn clean package -Pdev 来执行对应的环境资源拷贝工作。
