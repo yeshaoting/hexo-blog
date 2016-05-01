@@ -45,8 +45,25 @@ SyntaxError: Non-ASCII character '\xe4' in file /Users/yeshaoting/java/workspace
 
 具体做法：在python脚本开头添加如下内容：
 ``` python
-# -*- coding: utf-8 -*-
+#coding=utf-8
+```
+或者：
+``` python
+#-*- coding: utf-8 -*-
 ```
 
-## 五、参考文档
+**注**：此内容必须放在脚本shebang后一行(不允许隔空行)或者放在脚本第一行。
+
+
+## 实例
+``` python
+#!/usr/bin/python
+#coding=utf-8
+
+print "你好，世界";
+```
+
+
+## 六、参考文档
+[Python 中文编码](http://www.runoob.com/python/python-chinese-encoding.html)
 [也谈 Python 的中文编码处理](http://in355hz.iteye.com/blog/1860787)
