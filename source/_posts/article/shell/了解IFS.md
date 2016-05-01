@@ -3,7 +3,7 @@ tags:
   - 实践
   - shell
 categories:
-  - 脚本
+  - 系统脚本
 date: 2016-02-01 17:37:00
 ---
 

@@ -3,7 +3,7 @@ tags:
   - issue
   - shell
 categories:
-  - 脚本
+  - 系统脚本
 date: 2016-02-28 16:56:00
 ---
 
