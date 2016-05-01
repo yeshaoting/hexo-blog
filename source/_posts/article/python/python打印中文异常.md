@@ -43,7 +43,7 @@ SyntaxError: Non-ASCII character '\xe4' in file /Users/yeshaoting/java/workspace
 ## 四、解决方法
 告诉python解释器，按照utf-8编码读取源代码。
 
-具体做法：在python脚本第一行非空白行前添加如下内容：
+具体做法：在python脚本开头添加如下内容：
 ``` python
 # -*- coding: utf-8 -*-
 ```
