@@ -1,5 +1,6 @@
 tags:
   - python
+  - 学习笔记
 categories:
   - 系统脚本
 title: 《跟老齐学Python》学习笔记-数

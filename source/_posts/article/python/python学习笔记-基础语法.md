@@ -1,6 +1,7 @@
-title: Python菜鸟教程学习笔记 - Python基础语法
+title: Python菜鸟教程学习笔记 - 基础语法
 tags:
   - python
+  - 学习笔记
 categories:
   - 系统脚本
 date: 2016-05-02 15:13:00
