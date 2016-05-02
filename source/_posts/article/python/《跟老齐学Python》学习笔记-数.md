@@ -50,6 +50,8 @@ python中变量仅仅只一个标识，指向某个存储空间。
 参见：https://github.com/yeshaoting/StarterLearningPython/blob/master/102.md
 
 
+<!-- more -->
+
 ## 二、除法
 
 ### 1. 整型相除
