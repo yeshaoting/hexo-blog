@@ -41,6 +41,7 @@ del value, string
 
 更多内容：[Python 数字](http://www.runoob.com/python/python-numbers.html)
 
+<!-- more -->
 
 ## 三、字符串
 
