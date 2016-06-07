@@ -1,8 +1,6 @@
-
-date: 2015-12-29 15:51:00
 title: 关于
+date: 2015-12-29 15:51:00
 ---
-
 hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的Web开发者一枚。
 计算机专业毕业，4年在职工作经验，6年web开发经验。
 
@@ -32,10 +30,10 @@ hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的W
 
 
 ## 关注技术
-**后端**：`java`、`spring`、`mybatis`、`hibernate`、`quartz`
-**前端**：`jquery`、`bootstrap`、`angularjs`
-**系统**：`linux`、`shell`、`vim`
-**测试**：`jmeter`、`selenium`
+**后端技术**：`java`、`spring`、`mybatis`、`hibernate`、`thrift`、`quartz`
+**前端设计**：`jquery`、`bootstrap`、`angularjs`
+**系统运维**：`linux`、`python`、`shell`、`vim`
+**测试工具**：`jmeter`、`selenium`
 **搜索**：`solr`、`lucene`
 **数据库**：`mysql`
 **持续集成**：`jenkins`
@@ -51,4 +49,3 @@ hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的W
 
 ## 声明
 博客所有观点纯属个人理解，如有误导请指正。
-
