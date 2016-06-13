@@ -43,12 +43,10 @@ date: 2015-12-29 17:56:00
 下载地址：http://pad.haroopress.com/user.html
 
 ### 3. Office
-参见：[office for mac 安装与激活](http://wiki.sankuai.com/pages/viewpage.action?pageId=68729269)
+参见：[Microsoft Office 2016 for Mac (15.16) 正式版下载+破解](http://www.macx.cn/thread-2166376-1-1.html)
 
-**注**：需要使用outlook邮箱功能还需要安装补丁：Office2011-1447Update_ZH-CN.dmg
-
-### 4. IM大象
-http://x.sankuai.com/
+### 4. MarkEditor
+http://zrey.com/app/markeditor
 
 ### 5. ichm
 [iChm – CHM 阅读器[Mac]](http://www.appinn.com/ichm/)
@@ -84,19 +82,8 @@ http://www.pc6.com/mach/macdtime/
 ### 10. Cisco AnyConnect Secure Mobility Client
 
 ### 11. vpn&relay
-[自助申请relay/vpn相关事宜](http://wiki.sankuai.com/pages/viewpage.action?pageId=113026078)
-
-#### VPN
-[公司办公网VPN服务使用指南](http://wiki.sankuai.com/pages/viewpage.action?pageId=46338234)
-
-**公司办公网VPN服务使用指南** 中包含有mac与windows连接公司办公网的方法及软件链接。[^]
 mac软件：Tunnelblick
 windows软件：OpenVPN
-
-#### relay
-[新人权限申请、跳板机使用指南](http://wiki.sankuai.com/pages/viewpage.action?pageId=46341961)
-[Relay双因素认证使用文档](http://wiki.sankuai.com/pages/viewpage.action?pageId=139768289)
-[Relay账号密码修改方法](http://wiki.sankuai.com/pages/viewpage.action?pageId=258722751)
 
 ### 12. tuxera ntfs
 自动加载ntfs格式移动设备，并支持读写。
@@ -218,7 +205,7 @@ http://apple.stackexchange.com/a/42450/40485
 参见：[MAC OSX右键菜单能否添加类似于“在终端中打开当前目录”的快捷方式](https://www.v2ex.com/t/81344)
 
 ### 8. 打印机
-参见：[富士施乐打印机添加教程(For MAC)](http://wiki.sankuai.com/pages/viewpage.action?pageId=79933100)
+各公司打印机安装方式不一
 
 ### 9. Mac怎么彻底关闭开机声音(粗略尝试不好用)
 关闭开机声音：`sudo nvram SystemAudioVolume=%80`
@@ -253,15 +240,7 @@ killall Finder
 参见：[[Mac]如何在Finder标题栏显示当前文件夹路径？](http://www.macgg.com/archives/7824.html)
 
 ### 12. 邮件配置
-邮件客户端都需要提供邮件服务器信息：
-
-#### 接收邮件服务器
-请选择IMAP协议，并填写服务器地址为：imap.meituan.com ：端口 993 （SSL加密） （加密请不要使用TLS）
-
-#### 发送邮件服务器
-请选择SMTP协议，并填写服务器地址为：smtp.meituan.com : 端口 587 （TLS加密）（注意请开启SMTP发信认证）
-
-参考：[美团邮件系统](http://wiki.sankuai.com/pages/viewpage.action?pageId=22577293)
+各公司邮件服务器配置不一。
 
 
 ### 13. 配色
