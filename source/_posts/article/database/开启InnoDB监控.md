@@ -134,6 +134,7 @@ DROP TABLE innodb_table_monitor;
 虽说状态日志是每15秒周期性输出一次，但是由于状态收集与输出也会占用一些时间，特别是表空间日志(INNODB TABLE MONITOR OUTPUT)和表日志(INNODB TABLESPACE MONITOR OUTPUT)。因此，两次日志时间并不是规律的间隔15秒，而是自上次输出后15秒加上收集输出监控日志的时间。
 
 
+
 ## 五、补充知识
 
 ### 1. 查看错误日志输出位置
