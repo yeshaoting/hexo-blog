@@ -100,6 +100,21 @@ HyperDock是一款可以让你的mac系统的任务栏浏览器图标能像win7�
 
 HyperDock for Mac 1.5.2 中文破解版百度云盘直接下载：http://pan.baidu.com/s/1pJHv16F
 
+### 15. NoSleep
+一般情况下，在我们使用Macbook苹果笔记本的时候，只要将上盖阖上，电脑就会进入睡眠状态，这样运行的程序以及网络连接都会中断，直到睡眠被唤醒。
+这里推荐一个插件NoSleep-1.4.0.dmg，可以自己控制合上盖子是否睡眠，是不是很赞！
+修改nosleep的设置，勾选开机自动启动，空心图标表示合盖会睡眠，实心图标表示合盖不会睡眠，通过Enable NoSleep切换（也可以通过命令切换/usr/local/bin/NoSleepCtrl -s 1/0，再配合crontab就可以自动开启和关闭）
+
+参见：[NoSleep – 就是不休眠](http://www.appinn.com/nosleep/)
+
+### 16. Clearview
+pdf和chm文件查看工具Clearview。
+之前用过几款chm查看工具，如：ichm、xchm，有些chm会出现乱码问题。
+但是，由于是全文内容加载，ClearView打开速度性能略差。
+
+参见：[Clearview 1.9 Mac破解版](http://www.sdifenzhou.com/clearview19.html)
+
+
 ### x. 更多应用软件
 参见：[装机必备](http://www.maczapp.com/zjbb)
 
@@ -154,6 +169,17 @@ sudo ./mysqld_safe
 
 ### 9. JD-GUI
 java class反编译工具
+
+### 10. charles
+简单说明下Charles的破解方法：
+1.打开dmg镜像，将“Charles.app”拖入应用程序中；
+2.打开应用程序—右键“Charles.app”显示包内容—Contents—Java；
+3.将dmg镜像包内的“charles.jar”替换覆盖到第二步的Java文件夹中；
+4.打开“Charles.app”，等待30秒，菜单栏中找到“Help”—“Register…”，输入任意信息完成注册；
+5.Have done！
+
+系统版本要求：OS X 10.7 或更高。
+参见：[Charles 4.0 Mac破解版](http://www.sdifenzhou.com/charles4.html)
 
 
 ## 三、系统配置

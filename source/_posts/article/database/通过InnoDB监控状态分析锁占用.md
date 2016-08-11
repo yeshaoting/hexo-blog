@@ -1,7 +1,17 @@
+title: 通过InnoDB监控状态分析锁占用
+tags:
+  - mysql
+  - innodb
+categories:
+  - 数据存储
+date: 2016-08-06 22:31:00
+---
+<img src="/asserts/images/logo/mysql.png" class="img-logo img-center" />
 
 
 ## 一、表结构
-``` sql
+
+```bash
 CREATE TABLE `t` (
   `id` int(11) NOT NULL,
   `stage` int(11) NOT NULL,
@@ -66,6 +76,9 @@ Record lock, heap no 8 PHYSICAL RECORD: n_fields 2; compact format; info bits 0
 行锁根据索引划分为加在聚集索引 PRIMARY 上的行锁和加在普通索引 idx_b 上的行锁。
 加在聚集索引上的行锁1把，是一个排他的记录锁；
 加在普通索引上的行锁2把，1把是next-key lock，锁住的范围为(1, 4]；1把是gap lock，锁住的范围为(4, 9)。
+
+
+<!-- more -->
 
 
 ## 四、复杂实例
@@ -263,5 +276,4 @@ idx_b 上的排他 gap lock，范围：idx_b in (9， 15)
 事务T2插入记录(7, 7)时，要请求范围idx_b in (4, 9)上的insert intention lock，而请求的insert intention lock与事务T1已持有的gap lock是互斥的。
 于是，事务T2也会block，等待事务T2释放范围idx_b in (4， 9)上的gap lock。
 死锁便产生了。
-
 

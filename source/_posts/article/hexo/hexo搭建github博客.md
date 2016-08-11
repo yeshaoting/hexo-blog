@@ -73,9 +73,15 @@ npm install -g hexo-cli
 ## 初始化并安装hexo
 ``` shell
 cd hexo-blog
-hexo init
-npm install
+hexo init && npm install
 ```
+
+重新安装，可以尝试使用如下命令：
+``` bash
+cd hexo-blog
+npm install hexo --save
+```
+
 
 新建完成后，指定文件夹的目录如下：
 ```
