@@ -178,12 +178,10 @@ limit_article_width:
 
 # 是否开启边栏多标签切换
 # Birdhouse button in left column
-tagcloud: false
+tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 friends:
-  Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
   爪哇哥的爪哇岛: http://jarg.iteye.com
   MOxFIVE: http://moxfive.xyz/
   卢松松博客: http://lusongsong.com
@@ -194,7 +192,7 @@ friends:
 #friends: true
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 只求成为一名靠谱的码农
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
