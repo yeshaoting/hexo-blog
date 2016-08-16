@@ -76,7 +76,8 @@ feed:
   limit: 100
 
 ## Themes: http://hexo.io/themes/
-theme: jacman
+# theme: jacman
+theme: yelee
 stylus:
   compress: true
 
