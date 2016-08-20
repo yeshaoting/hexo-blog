@@ -7,7 +7,7 @@ categories:
 date: 2016-02-16 11:51:00
 ---
 
-<img src="/asserts/images/logo/ejs.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/ejs.png" title="ejs" class="img-logo img-center" />
 
 
 ## 一、简介

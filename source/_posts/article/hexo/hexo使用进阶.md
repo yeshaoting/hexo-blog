@@ -6,7 +6,7 @@ title: hexo使用进阶
 date: 2016-02-01 13:25:00
 ---
 
-<img src="/asserts/images/logo/hexo.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/hexo.png" title="hexo" class="img-logo img-center" />
 
 
 ## 一、后端管理插件hexo-admin

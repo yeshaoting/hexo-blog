@@ -6,7 +6,7 @@ categories:
 date: 2015-12-29 14:04:00
 ---
 
-<img src="/asserts/images/logo/blog.png" class="img-logo img-center" />
+<img src="/asserts/images/logo/blog.png" title="hexo" class="img-logo img-center" />
 
 
 ## 一、创建Github Pages
