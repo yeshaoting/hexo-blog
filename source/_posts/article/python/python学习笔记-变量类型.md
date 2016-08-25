@@ -39,8 +39,6 @@ del value, string
 如若在删除对象引用还继续使用对象的话，则会报变量未定义的错误：`NameError: name 'value' is not defined`
 
 
-更多内容：[Python 数字](http://www.runoob.com/python/python-numbers.html)
-
 <!-- more -->
 
 ## 三、字符串
@@ -94,5 +92,10 @@ del value, string
 ```
 
 
-## 八、附录
-参考文档：[Python 变量类型](http://www.runoob.com/python/python-variable-types.html)
+## 八、参考文档
+- [Python 变量类型](http://www.runoob.com/python/python-variable-types.html)
+- [Python Number(数字)](http://www.runoob.com//python/python-numbers.html)
+- [Python 字符串](http://www.runoob.com//python/python-strings.html)
+- [Python 列表(List)](http://www.runoob.com//python/python-lists.html)
+- [Python 元组](http://www.runoob.com//python/python-tuples.html)
+- [Python 字典(Dictionary)](http://www.runoob.com//python/python-dictionary.html)

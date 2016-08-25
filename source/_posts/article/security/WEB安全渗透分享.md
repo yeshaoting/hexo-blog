@@ -23,14 +23,16 @@ WEB安全渗透靶场：http://10.4.236.115:8080/
 主要是为了收集用户名信息，进行登记，用于记录闯关进度!
 
 界面如下图所示：
-![用户登记](/asserts/images/article/WEB安全渗透分享/Snip20160308_1.png)
+![用户登记]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_1.png)
+![用户登记]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_1.png)
 
 
 ### 2. 用户主页
 简单地展示用户当前进度，并提供进入下一关的入口。后续可以扩展，显示击败百分之多少的对手。
 
 界面如下图所示：
-![用户主页](/asserts/images/article/WEB安全渗透分享/Snip20160308_3.png)
+![用户主页]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_3.png)
+![用户主页]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_3.png)
 
 
 <!-- more -->
@@ -45,12 +47,15 @@ Tips：这个页面用户与密码不需要去服务器交互验证。
 
 ### 2. 界面
 界面如下图所示：
-![关卡1](/asserts/images/article/WEB安全渗透分享/Snip20160308_4.png)
+![关卡1]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_4.png)
+![关卡1]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_4.png)
 
 ### 3. 揭密
 用户名密码直接写在了页面的js逻辑里，跟随页面元素js操作即可找到对应的内容。
-![关卡1-页面代码](/asserts/images/article/WEB安全渗透分享/Snip20160308_5.png)
-![关卡1-js代码](/asserts/images/article/WEB安全渗透分享/Snip20160308_6.png)
+![关卡1-页面代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_5.png)
+![关卡1-页面代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_5.png)
+![关卡1-js代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_6.png)
+![关卡1-js代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_6.png)
 
 由此，可见第一关的用户名密码如下：
 ``` javascript
@@ -74,13 +79,15 @@ Tips：就算是判断了用户名 and 密码 都正确，也是被禁用的。
 
 ### 2. 界面
 界面如下图所示：
-![关卡2](/asserts/images/article/WEB安全渗透分享/Snip20160308_7.png)
+![关卡2]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_7.png)
+![关卡2]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_7.png)
 
 ### 3. 揭密
 对于sql而言，有些特殊字符（如：单引号，--，\，#等）、保留字（如：select，values，delete等）和内置函数（date，time，concat等），使用不当都有可能会导致SQL执行错误。
 
 由此，我们尝试使用单引号，发现登录异常提示如下：
-![特殊字符注入](/asserts/images/article/WEB安全渗透分享/Snip20160308_12.png)
+![特殊字符注入]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_12.png)
+![特殊字符注入]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_12.png)
 
 并且，发现在控制台出现如下异常信息：
 ``` bash
@@ -137,7 +144,8 @@ Tips：答案不在本页
 
 ### 2. 界面
 界面如下图所示：
-![关卡3](/asserts/images/article/WEB安全渗透分享/Snip20160308_13.png)
+![关卡3]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_13.png)
+![关卡3]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_13.png)
 
 ### 3. 揭密
 由提示找到通关后台可知，找到后台是关键。
@@ -146,8 +154,10 @@ Tips：答案不在本页
 尝试如下地址：http://localhost:8080/sohu/index#/admin
 于是进入了后台管理界面，如下图所示：
 ![WEB安全渗透实战-后台管理系统
-](/asserts/images/article/WEB安全渗透分享/Snip20160308_15.png)
-![后台管理系统-升级](/asserts/images/article/WEB安全渗透分享/Snip20160308_16.png)
+]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_15.png)
+]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_15.png)
+![后台管理系统-升级]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_16.png)
+![后台管理系统-升级]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160308_16.png)
 
 尝试点击**升级**直接通关，其他所有内容其实都是假的。
 
@@ -166,7 +176,8 @@ Tips：0 - (-1) = 1
 
 ### 2. 界面
 界面如下图所示：
-![关卡4](/asserts/images/article/WEB安全渗透分享/Snip20160309_21.png)
+![关卡4]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_21.png)
+![关卡4]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_21.png)
 
 ### 3. 揭密
 由于初始时每人只拥有5000000的虚拟货币，完全不只以购买价值最高的物品。
@@ -175,12 +186,14 @@ Tips：0 - (-1) = 1
 再根据下面的提示说0 - (-1) = 1，可与购买联想到：购买物品时，修改传到后端的价格为负数，来达到为自己增加虚拟货币的目的。
 
 于是我们尝试购买价格为399的物品。系统提示：购买成功，但是未购买价值最高的物品，如下图所示：
-![未购买最高价值的物品](/asserts/images/article/WEB安全渗透分享/Snip20160309_22.png)
+![未购买最高价值的物品]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_22.png)
+![未购买最高价值的物品]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_22.png)
 
 我们再通过console可以看到，发出的POST请求为：http://10.4.236.115:8080/sohu/stage4/pass?id=1&price=399
 
 查看购买的js请求代码如下：
-![关卡4-js代码](/asserts/images/article/WEB安全渗透分享/Snip20160309_23.png)
+![关卡4-js代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_23.png)
+![关卡4-js代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_23.png)
 
 在下一次购买请求时，设置price值为 -7999999 。请求完成后，依然提示购买失败的消息，但是虚拟货币却变成了：12999600。
 
@@ -230,7 +243,8 @@ Tips：有时候采用最原始的方法收到的效果反而更显著。
 
 ### 2. 界面
 界面如下图所示：
-![关卡5](/asserts/images/article/WEB安全渗透分享/Snip20160309_24.png)
+![关卡5]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_24.png)
+![关卡5]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_24.png)
 
 ### 3. 揭密
 从Tips里提到的最原始的方法，大概能猜测到最直接的破解方式：**字典破解** 或 **暴力破解**。
@@ -276,11 +290,13 @@ Tips：密码被硬编码到了当前页面服务器上的php代码里。
 
 ### 2. 界面
 界面如下图所示：
-![关卡6](/asserts/images/article/WEB安全渗透分享/Snip20160309_25.png)
+![关卡6]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_25.png)
+![关卡6]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_25.png)
 
 ### 3. 揭密
 老规范，查看页面代码，如下图所示：
-![关卡6-页面代码](/asserts/images/article/WEB安全渗透分享/Snip20160309_27.png)
+![关卡6-页面代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_27.png)
+![关卡6-页面代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_27.png)
 
 再结合Tips说密码被放在了php代码里。巧的是页面里的图片也是通过后缀为php的url生成的。
 由此可知，这个php页面就是stage6.php。如此同时，这个服务还支持file参数。
@@ -290,7 +306,8 @@ Tips：密码被硬编码到了当前页面服务器上的php代码里。
 最后发现该php代码文件获取链接地址为：http://10.4.236.115:8080/sohu/stage6.php?file=stage6.php
 
 查看页面内容如下图所示：
-![关卡6-php代码](/asserts/images/article/WEB安全渗透分享/Snip20160309_28.png)
+![关卡6-php代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_28.png)
+![关卡6-php代码]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_28.png)
 
 额，其实这是一个jsp页面，只是以jsp为后缀的url被jetty使用默认的servlet自动转发了，不得以只好用php做为后缀用了。
 
@@ -311,11 +328,13 @@ Tips：一会公开的来源控制方法也许并不安全
 
 ### 2. 界面
 界面如下图所示：
-![关卡7](/asserts/images/article/WEB安全渗透分享/Snip20160309_29.png)
+![关卡7]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_29.png)
+![关卡7]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_29.png)
 
 ### 3. 揭密
 点击“验证权限”发现系统给出如下提示：
-![关卡7-提示](/asserts/images/article/WEB安全渗透分享/Snip20160309_30.png)
+![关卡7-提示]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_30.png)
+![关卡7-提示]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160309_30.png)
 
 提示内容：你不是来自于127.0.0.1的访客。反过来，提示的意思可以理解为只有IP地址来自于127.0.0.1的用户才有访问的权限。
 
@@ -369,7 +388,8 @@ Tips：你猜到他们猜不到你猜得到他们猜不到你猜得到
 
 ### 2. 界面
 界面如下图所示：
-![关卡8](/asserts/images/article/WEB安全渗透分享/Snip20160310_35.png)
+![关卡8]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_35.png)
+![关卡8]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_35.png)
 
 ### 3. 揭密
 第8关上来就是一个大大的二维码。
@@ -395,15 +415,18 @@ Tips：你猜到他们猜不到你猜得到他们猜不到你猜得到
 
 #### 微信开放平台
 参见：[微信签名规则](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421135319&token=&lang=zh_CN)
-![关卡8-微信签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_31.png)
+![关卡8-微信签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_31.png)
+![关卡8-微信签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_31.png)
 
 #### 腾讯开放平台
 参见：[腾讯签名规则](http://wiki.open.qq.com/wiki/%E8%85%BE%E8%AE%AF%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E7%AD%BE%E5%90%8D%E5%8F%82%E6%95%B0sig%E7%9A%84%E8%AF%B4%E6%98%8E)
-![关卡8-腾讯签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_33.png)
+![关卡8-腾讯签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_33.png)
+![关卡8-腾讯签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_33.png)
 
 #### 淘宝开放平台
 参见：[淘宝签名规则](http://open.taobao.com/doc2/detail.htm?articleId=101617&docType=1&treeId=1#s5)
-![关卡8-淘宝签名规则](/asserts/images/article/WEB安全渗透分享/Snip20160310_34.png)
+![关卡8-淘宝签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_34.png)
+![关卡8-淘宝签名规则]http://o7kubqw1j.bkt.clouddn.com//images/article/WEB安全渗透分享/Snip20160310_34.png)
 
 ### 5. 小结
 签名方式尽量与市面上的一些规则区分开。
