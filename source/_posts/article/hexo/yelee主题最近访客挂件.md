@@ -78,7 +78,8 @@ visitor: true
 ```
 
 ### 5. 效果图
-![最近访客菜单项](/asserts/images/article/yelee主题最近访客/2016-08-20 13-41-17.jpg)
+![最近访客菜单项]http://o7kubqw1j.bkt.clouddn.com//images/article/yelee主题最近访客/2016-08-20 13-41-17.jpg)
+![最近访客菜单项]http://o7kubqw1j.bkt.clouddn.com//images/article/yelee主题最近访客/2016-08-20 13-41-17.jpg)
 
 
 <!-- more -->
@@ -151,5 +152,6 @@ var duoshuoQuery = {short_name:"您的多说二级域名"};
 ```
 
 ### 5. 效果图
-![最近访客详情页](/asserts/images/article/yelee主题最近访客/2016-08-20 14-27-49.jpg)
+![最近访客详情页]http://o7kubqw1j.bkt.clouddn.com//images/article/yelee主题最近访客/2016-08-20 14-27-49.jpg)
+![最近访客详情页]http://o7kubqw1j.bkt.clouddn.com//images/article/yelee主题最近访客/2016-08-20 14-27-49.jpg)
 

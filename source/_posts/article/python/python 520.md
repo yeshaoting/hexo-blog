@@ -29,4 +29,5 @@ if __name__ == '__main__':
 
 
 ## 三、运行截图
-![520运行图](/asserts/images/article/python 520/520_run.png)
+![520运行图]http://o7kubqw1j.bkt.clouddn.com//images/article/python 520/520_run.png)
+![520运行图]http://o7kubqw1j.bkt.clouddn.com//images/article/python 520/520_run.png)

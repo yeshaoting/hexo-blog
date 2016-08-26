@@ -101,8 +101,8 @@ deploy:
 #  secret: a secret something
 
 
-#plugins:
-#  - hexo-qiniu-sync
+plugins:
+  - hexo-qiniu-sync
 
 #七牛云存储设置
 ##offline       是否离线. 离线状态将使用本地地址渲染
