@@ -1,10 +1,10 @@
 title: 升级mac bash到4.3版本
 tags:
-  - mac
-  - shell
-categories:
-  - 工具软件
-date: 2016-01-29 18:52:00
+- mac
+- shell
+    categories:
+    - 工具软件
+      date: 2016-01-29 18:52:00
 ---
 
 <img src="/asserts/images/logo/mac.png" class="img-logo img-center" />
@@ -59,7 +59,7 @@ yerba-buena:~ yeshaoting$ sudo ln -s /usr/local/opt/bash/bin/bash /bin/bash
 
 由于本mac版本下的sh并不是直接链接bash，而是bash的一个文件拷贝。因此，还要替换默认的sh指向的命令为bash，如下：
 ``` bash
-yerba-buena:~ yeshaoting$ sudo mv /bin/bash /bin/sh.origin
+yerba-buena:~ yeshaoting$ sudo mv /bin/sh /bin/sh.origin
 yerba-buena:~ yeshaoting$ sudo ln -s /usr/local/opt/bash/bin/bash /bin/sh
 ```
 
