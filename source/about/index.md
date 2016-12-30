@@ -9,33 +9,33 @@ hi，我是叶绍亭，80后，将近而立之年，目前是在美团工作的W
 
 
 ## 联系我
- - 邮箱：[yeshaoting@163.com](mailto:yeshaoting@163.com)
- - 主页：http://yeshaoting.cn
- - 技术博客：http://jarg.iteye.com
- - 微博：[@悠然萧萧](http://weibo.com/jarg)
+- 邮箱：[yeshaoting@163.com](mailto:yeshaoting@163.com)
+- 主页：http://yeshaoting.cn
+- 技术博客：http://jarg.iteye.com
+- 微博：[@悠然萧萧](http://weibo.com/jarg)
 
 
 ## 教育经历
-| 学校 | 学历 | 专业 | 起至时间 |
-|---|---|
-| 大连海事大学 | 研究生| 计算机科学与技术 | 2010-09-01 ~ 2012-07-01 |
-| 黑龙江大学 | 本科| 计算机科学与技术 | 2006-09-01 ~ 2010-07-01 |
+| 学校     | 学历   | 专业       | 起至时间                    |
+| ------ | ---- | -------- | ----------------------- |
+| 大连海事大学 | 研究生  | 计算机科学与技术 | 2010-09-01 ~ 2012-07-01 |
+| 黑龙江大学  | 本科   | 计算机科学与技术 | 2006-09-01 ~ 2010-07-01 |
 
 
 ## 工作经历
-| 公司 | 职位 | 起至时间 |
-|---|---|
-| 美团 | Java工程师 | 2015-11-25 ~ 至今 |
+| 公司   | 职位      | 起至时间                    |
+| ---- | ------- | ----------------------- |
+| 美团   | Java工程师 | 2015-11-25 ~ 至今         |
 | 搜狐视频 | Java工程师 | 2014-12-17 ~ 2015-11-23 |
-| 百度 | Java工程师 | 2006-07-11 ~ 2014-12-15 |
+| 百度   | Java工程师 | 2012-07-11 ~ 2014-12-15 |
 
 
 ## 关注技术
-**后端技术**：`java`、`spring`、`mybatis`、`hibernate`、`thrift`、`quartz`
-**前端设计**：`jquery`、`bootstrap`、`angularjs`
+**后端技术**：`java`、`spring`、`spring boot`、`mybatis`、`hibernate`、`thrift`、`quartz`
+**前端设计**：`jquery`、`bootstrap`、`angularjs`、`vue`
 **系统运维**：`linux`、`python`、`shell`、`vim`
 **测试工具**：`jmeter`、`selenium`
-**搜索**：`solr`、`lucene`
+**搜索**：`solr`、`lucene`、`elastic search`
 **数据库**：`mysql`
 **持续集成**：`jenkins`
 
