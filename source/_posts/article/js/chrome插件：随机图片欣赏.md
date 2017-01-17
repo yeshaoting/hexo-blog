@@ -1,8 +1,6 @@
 title: chrome插件：随机图片欣赏
 tags:
-  - plugin
-  - ''
-  - chrome
+  - chrome插件
 categories:
   - 前端设计
 author: yeshaoting
