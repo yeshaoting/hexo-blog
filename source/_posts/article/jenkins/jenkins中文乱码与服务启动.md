@@ -6,7 +6,6 @@ tags:
 title: jenkins中文乱码与服务启动
 date: 2015-12-29 13:58:00
 ---
-
 <img src="/asserts/images/logo/jenkins.png" class="img-logo img-center" />
 
 
@@ -16,7 +15,7 @@ date: 2015-12-29 13:58:00
 
 ## 问题查看与分析
 首先，查看jenkins管理界面的**系统属性**功能。
-对应URL地址为：http://jenkins.go.sohuno.com/systemInfo
+对应URL地址为：http://jenkins.xxx.com/systemInfo
 
 可以看到jenkins启动环境变量file.encoding值为默认的**ISO-8859-1**(Latin-1字符集)。
 不希望jenkins乱码，需要设置其编码方式为UTF-8。(参考：[Jenkins控制台中乱码问题][^1])
@@ -69,4 +68,3 @@ jenkins命令启动接收的参数`--logfile`, `--webroot`, `--httpPort`, `--ajp
 [^4]: http://lee2013.iteye.com/blog/2108612
 [^5]: http://www.xuebuyuan.com/2108588.html
 [^6]: http://winstone.sourceforge.net/
-
